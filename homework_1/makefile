@@ -8,8 +8,6 @@ CC = g++
 CFLAGS = -Wall -g
  
 # Builds .o files, then builds executable, then runs the executable
-all: make run
-
 make: blocksworld.o blocksworld
 
 # BUILDS ALL EXECUTABLES
@@ -27,7 +25,7 @@ Node.o: Node.h
 # RUNS ALL EXECUTABLES WITH COMMAND LINE ARGUMENTS
 # ./exe <filename> [-H ]
 run:
-	./blocksworld 
+	./blocksworld probs/probA04.bwp -H 1
 
 # CLEARS BUILT FILES
 clean:
