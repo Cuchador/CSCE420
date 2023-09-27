@@ -59,7 +59,11 @@ void printStats(int iter, int depth, int pathcost, int Qsize) {
     std::cout << "iter=" << iter << ", depth=" << depth << ", pathcost=" << pathcost << ", Qsize=" << Qsize << std::endl;
 }
 
-Node* aStarSearch(State* start_state, State* goal_state, int heuristic) {
+void printFinal(string filename, int method, int planlen, int iter, int qsize) {
+    cout << "problem: " << filename << " | method: Astar with H" << method << " | planlen: " << planlen << " | iters: " << iter << " | maxq: " << qsize << endl; 
+}
+
+Node* aStarSearch(State* start_state, State* goal_state, int heuristic, string filename) {
     // Initialize necessary data structuress
     Node* node = new Node(start_state);
     node->f(goal_state, heuristic);
@@ -73,7 +77,7 @@ Node* aStarSearch(State* start_state, State* goal_state, int heuristic) {
         Node* node = frontier.top();
         node->f(goal_state, heuristic);
         frontier.pop();
-        if (iter % 1000 == 0) printStats(iter, node->tree_depth, node->path_cost(), frontier.size());
+        if (iter % 1000 == 0 && iter != 0) printStats(iter, node->tree_depth, node->path_cost(), frontier.size());
         // Check if the current node is equal to the solution
         bool done = true;
         for (int i = 0; i < node->curr_state->_state.size(); i++) {
@@ -82,8 +86,8 @@ Node* aStarSearch(State* start_state, State* goal_state, int heuristic) {
             }
         }
         if (done) { 
-            cout << "Success! ";
-            printStats(iter, node->tree_depth, node->path_cost(), frontier.size());
+            cout << "Success!" << endl;
+            printFinal(filename, heuristic, node->tree_depth, iter, frontier.size());
             cout << "Success state path: \n";
             node->print_successors();
             return node; 
@@ -100,6 +104,7 @@ Node* aStarSearch(State* start_state, State* goal_state, int heuristic) {
         iter++;
         if (iter > MAX_ITERS) {break;}
     }
+    cout << "problem: " << filename << " | method: Astar with H" << heuristic << " | planlen: " << "FAILED" << " | iters: " << iter << " | maxq: " << frontier.size() << endl; 
     return nullptr;
 }
 
@@ -122,7 +127,7 @@ int main(int argc, char* argv[]) {
     if (start_state->_state.empty()) { return 0; }
     State* goal_state = new State(start_goal_state.second);
     // Perform A* Search (using State and Node classes)
-    Node* solution = aStarSearch(start_state, goal_state, heuristic);
+    Node* solution = aStarSearch(start_state, goal_state, heuristic, filename);
     if (solution == nullptr) {
         std::cout << "Failed! Exceeded maximum iterations" << std::endl;
     }

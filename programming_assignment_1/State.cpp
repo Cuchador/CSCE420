@@ -68,6 +68,26 @@ int State::h(State* goal_state, int heuristic) {
                 score += diff;
             }
             return score;
+        case 3: // Find some measure of 'distance' of each block from the solution
+            for (int i = 0; i < _state.size(); i++) {
+                for (int j = 0; j < _state[i].size(); j++) {
+                    int distance = 0;
+                    char block = _state[i][j]; // want to find goal position of this block
+                    // Check the current stack
+                    int stack_num = 0;
+                    int block_pos = 0;
+                    for (int k = 0; k < goal_state->_state.size(); k++) {
+                        for (int l = 0; l < goal_state->_state[k].size(); l++) {
+                            if (goal_state->_state[k][l] == block) {
+                                stack_num = k;
+                                block_pos = l;
+                                break;
+                            }
+                        }
+                    }
+                    // Measure the distance from i and j to stack_num, block_pos
+                }
+            }
     }
     
     return score;
