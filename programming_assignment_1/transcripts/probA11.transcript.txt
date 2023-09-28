@@ -1,0 +1,78 @@
+./blocksworld probs/probA11.bwp -H 2
+
+iter=1000, depth=6, pathcost=6, Qsize=4766
+iter=2000, depth=6, pathcost=6, Qsize=9568
+iter=3000, depth=6, pathcost=6, Qsize=14484
+iter=4000, depth=6, pathcost=6, Qsize=19386
+iter=5000, depth=6, pathcost=6, Qsize=24446
+iter=6000, depth=7, pathcost=7, Qsize=29384
+iter=7000, depth=6, pathcost=6, Qsize=34266
+iter=8000, depth=7, pathcost=7, Qsize=39216
+iter=9000, depth=9, pathcost=9, Qsize=44048
+iter=10000, depth=7, pathcost=7, Qsize=48942
+iter=11000, depth=7, pathcost=7, Qsize=53802
+iter=12000, depth=6, pathcost=6, Qsize=58810
+Success!
+
+problem: probs/probA11.bwp | method: Astar with H2 | planlen: 11 | iters: 12570 | maxq: 61672
+
+Success state path: 
+***Move 0***
+Stack 0: ABCDE
+Stack 1: 
+Stack 2: 
+
+***Move 1***
+Stack 0: ABCD
+Stack 1: E
+Stack 2: 
+
+***Move 2***
+Stack 0: ABC
+Stack 1: ED
+Stack 2: 
+
+***Move 3***
+Stack 0: AB
+Stack 1: EDC
+Stack 2: 
+
+***Move 4***
+Stack 0: A
+Stack 1: EDC
+Stack 2: B
+
+***Move 5***
+Stack 0: AC
+Stack 1: ED
+Stack 2: B
+
+***Move 6***
+Stack 0: AC
+Stack 1: E
+Stack 2: BD
+
+***Move 7***
+Stack 0: A
+Stack 1: E
+Stack 2: BDC
+
+***Move 8***
+Stack 0: A
+Stack 1: 
+Stack 2: BDCE
+
+***Move 9***
+Stack 0: 
+Stack 1: A
+Stack 2: BDCE
+
+***Move 10***
+Stack 0: E
+Stack 1: A
+Stack 2: BDC
+
+***Move 11***
+Stack 0: E
+Stack 1: AC
+Stack 2: BD

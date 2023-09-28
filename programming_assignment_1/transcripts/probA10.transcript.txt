@@ -1,0 +1,71 @@
+./blocksworld probs/probA10.bwp -H 2
+
+iter=1000, depth=4, pathcost=4, Qsize=4828
+iter=2000, depth=4, pathcost=4, Qsize=9676
+iter=3000, depth=5, pathcost=5, Qsize=14526
+iter=4000, depth=5, pathcost=5, Qsize=19368
+iter=5000, depth=7, pathcost=7, Qsize=24170
+iter=6000, depth=6, pathcost=6, Qsize=29020
+iter=7000, depth=5, pathcost=5, Qsize=33858
+iter=8000, depth=5, pathcost=5, Qsize=38640
+iter=9000, depth=5, pathcost=5, Qsize=43446
+iter=10000, depth=7, pathcost=7, Qsize=48256
+Success!
+
+problem: probs/probA10.bwp | method: Astar with H2 | planlen: 10 | iters: 10362 | maxq: 50002
+
+Success state path: 
+***Move 0***
+Stack 0: BD
+Stack 1: CE
+Stack 2: A
+
+***Move 1***
+Stack 0: BDA
+Stack 1: CE
+Stack 2: 
+
+***Move 2***
+Stack 0: BDA
+Stack 1: C
+Stack 2: E
+
+***Move 3***
+Stack 0: BD
+Stack 1: CA
+Stack 2: E
+
+***Move 4***
+Stack 0: B
+Stack 1: CA
+Stack 2: ED
+
+***Move 5***
+Stack 0: 
+Stack 1: CA
+Stack 2: EDB
+
+***Move 6***
+Stack 0: A
+Stack 1: C
+Stack 2: EDB
+
+***Move 7***
+Stack 0: AC
+Stack 1: 
+Stack 2: EDB
+
+***Move 8***
+Stack 0: ACB
+Stack 1: 
+Stack 2: ED
+
+***Move 9***
+Stack 0: ACB
+Stack 1: D
+Stack 2: E
+
+***Move 10***
+Stack 0: ACBE
+Stack 1: D
+Stack 2: 

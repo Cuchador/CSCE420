@@ -1,6 +1,8 @@
 #include "State.h"
 #include "Node.h"
 #include <iostream>
+#include <unordered_map>
+#include <utility>
 State::State() {
     _state = std::vector<std::string>();
 }
@@ -56,38 +58,41 @@ int State::h(State* goal_state, int heuristic) {
             return score;
         case 2: // Score based on how many blocks are not in the correct position
             for (int i = 0; i < goal_state->_state.size(); i++) {
-                int diff = abs(goal_state->_state[i].size() - _state[i].size());
                 for (int j = 0; j < goal_state->_state[i].size(); j++) {
                     if (j >= _state[i].size()) { // Prevent out of range accessing
-                        break;
-                    }
-                    if (goal_state->_state[i][j] != _state[i][j]) {
+                        score++;
+                    } else if (goal_state->_state[i][j] != _state[i][j]) {
                         score++;
                     }
                 }
-                score += diff;
             }
             return score;
-        case 3: // Find some measure of 'distance' of each block from the solution
+        case 3: // Find how many moves between block pos and goal pos
             for (int i = 0; i < _state.size(); i++) {
-                for (int j = 0; j < _state[i].size(); j++) {
-                    int distance = 0;
-                    char block = _state[i][j]; // want to find goal position of this block
-                    // Check the current stack
-                    int stack_num = 0;
-                    int block_pos = 0;
-                    for (int k = 0; k < goal_state->_state.size(); k++) {
-                        for (int l = 0; l < goal_state->_state[k].size(); l++) {
-                            if (goal_state->_state[k][l] == block) {
-                                stack_num = k;
-                                block_pos = l;
-                                break;
+                std::string current_stack = _state[i];
+                for (int j = 0; j < current_stack.size(); j++) {
+                    std::string current_block (1, _state[i][j]);
+                    auto block_pos = goal_state->_state[i].find(current_block);
+                    if (block_pos == std::string::npos) { // block not in stack
+                        // Find how many moves to get the block out of the current stack
+                        for (int block_num = j; block_num < current_stack.size(); block_num++) {
+                            score++;
+                        }
+                        score += 1;
+                        // check other stacks
+                        for (int stack_num = 0; stack_num < goal_state->_state.size(); stack_num++) {
+                            if (stack_num == i) continue;
+                            block_pos = goal_state->_state[stack_num].find(current_block);
+                            if (block_pos != std::string::npos) {
+                                // block in this stack number
+                                score += abs(block_pos - _state[stack_num].size());
                             }
+                        
                         }
                     }
-                    // Measure the distance from i and j to stack_num, block_pos
                 }
             }
+            return score;
     }
     
     return score;

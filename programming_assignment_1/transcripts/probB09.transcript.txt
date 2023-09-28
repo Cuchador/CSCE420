@@ -1,0 +1,68 @@
+./blocksworld probs/probB09.bwp -H 2
+Success!
+
+problem: probs/probB09.bwp | method: Astar with H2 | planlen: 8 | iters: 827 | maxq: 12964
+
+Success state path: 
+***Move 0***
+Stack 0: FI
+Stack 1: CDGHJ
+Stack 2: E
+Stack 3: 
+Stack 4: AB
+
+***Move 1***
+Stack 0: F
+Stack 1: CDGHJ
+Stack 2: E
+Stack 3: I
+Stack 4: AB
+
+***Move 2***
+Stack 0: FE
+Stack 1: CDGHJ
+Stack 2: 
+Stack 3: I
+Stack 4: AB
+
+***Move 3***
+Stack 0: FE
+Stack 1: CDGHJ
+Stack 2: B
+Stack 3: I
+Stack 4: A
+
+***Move 4***
+Stack 0: FEJ
+Stack 1: CDGH
+Stack 2: B
+Stack 3: I
+Stack 4: A
+
+***Move 5***
+Stack 0: FEJA
+Stack 1: CDGH
+Stack 2: B
+Stack 3: I
+Stack 4: 
+
+***Move 6***
+Stack 0: FEJA
+Stack 1: CDGH
+Stack 2: 
+Stack 3: I
+Stack 4: B
+
+***Move 7***
+Stack 0: FEJA
+Stack 1: CDG
+Stack 2: H
+Stack 3: I
+Stack 4: B
+
+***Move 8***
+Stack 0: FEJA
+Stack 1: CDG
+Stack 2: H
+Stack 3: 
+Stack 4: BI

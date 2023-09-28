@@ -1,0 +1,47 @@
+./blocksworld probs/probB05.bwp -H 2
+Success!
+
+problem: probs/probB05.bwp | method: Astar with H2 | planlen: 5 | iters: 8 | maxq: 148
+
+Success state path: 
+***Move 0***
+Stack 0: AE
+Stack 1: CF
+Stack 2: D
+Stack 3: GHIJ
+Stack 4: B
+
+***Move 1***
+Stack 0: AE
+Stack 1: CF
+Stack 2: DJ
+Stack 3: GHI
+Stack 4: B
+
+***Move 2***
+Stack 0: AE
+Stack 1: CFI
+Stack 2: DJ
+Stack 3: GH
+Stack 4: B
+
+***Move 3***
+Stack 0: AE
+Stack 1: CFI
+Stack 2: DJB
+Stack 3: GH
+Stack 4: 
+
+***Move 4***
+Stack 0: AE
+Stack 1: CFI
+Stack 2: DJB
+Stack 3: G
+Stack 4: H
+
+***Move 5***
+Stack 0: AEG
+Stack 1: CFI
+Stack 2: DJB
+Stack 3: 
+Stack 4: H

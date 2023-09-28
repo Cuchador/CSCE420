@@ -1,0 +1,75 @@
+./blocksworld probs/probB12.bwp -H 2
+Success!
+
+problem: probs/probB12.bwp | method: Astar with H2 | planlen: 9 | iters: 88 | maxq: 1580
+
+Success state path: 
+***Move 0***
+Stack 0: DIJ
+Stack 1: BC
+Stack 2: EG
+Stack 3: H
+Stack 4: AF
+
+***Move 1***
+Stack 0: DIJ
+Stack 1: BC
+Stack 2: E
+Stack 3: HG
+Stack 4: AF
+
+***Move 2***
+Stack 0: DIJ
+Stack 1: BC
+Stack 2: EF
+Stack 3: HG
+Stack 4: A
+
+***Move 3***
+Stack 0: DIJ
+Stack 1: B
+Stack 2: EF
+Stack 3: HG
+Stack 4: AC
+
+***Move 4***
+Stack 0: DIJ
+Stack 1: B
+Stack 2: EFG
+Stack 3: H
+Stack 4: AC
+
+***Move 5***
+Stack 0: DI
+Stack 1: B
+Stack 2: EFGJ
+Stack 3: H
+Stack 4: AC
+
+***Move 6***
+Stack 0: DI
+Stack 1: B
+Stack 2: EFGJ
+Stack 3: 
+Stack 4: ACH
+
+***Move 7***
+Stack 0: D
+Stack 1: B
+Stack 2: EFGJ
+Stack 3: I
+Stack 4: ACH
+
+***Move 8***
+Stack 0: D
+Stack 1: 
+Stack 2: EFGJ
+Stack 3: IB
+Stack 4: ACH
+
+***Move 9***
+Stack 0: 
+Stack 1: D
+Stack 2: EFGJ
+Stack 3: IB
+Stack 4: ACH

@@ -12,6 +12,7 @@
 using namespace std;
 int MAX_ITERS = 100000;
 string H_FLAG = "-H";
+string ITER_FLAG = "-I";
 
 pair<std::vector<string>, std::vector<string>> parseFile(string filename) {
     vector<string> start_state;
@@ -118,6 +119,10 @@ int main(int argc, char* argv[]) {
         if (argv[i] == H_FLAG) {
             i++;
             heuristic = stoi(argv[i]);
+        }
+        if (argv[i] == ITER_FLAG) {
+            i++;
+            MAX_ITERS = stoi(argv[i]);
         }
     }
 
