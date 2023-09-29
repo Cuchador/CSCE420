@@ -93,7 +93,7 @@ Node* aStarSearch(State* start_state, State* goal_state, int heuristic, string f
             node->print_successors();
             return node; 
         }
-        // Generate successor nodes from the current state node
+        // Generate successor nodes from the current state nodes
         for (Node* child : node->successors()) {
             State* s = child->curr_state;
             if (reached.find(s) == reached.end() || child->path_cost() < reached[s]->path_cost()) {
