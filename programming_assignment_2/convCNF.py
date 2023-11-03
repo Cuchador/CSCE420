@@ -221,26 +221,32 @@ def validate_PropLog(expr):
 DIMACS = False
 
 if __name__=="__main__":
- if len(sys.argv)<2: sys.stderr.write("usage: python convCNF.py <propositional_kb> [-DIMACS]\n"); sys.exit(0)
- if "-DIMACS" in sys.argv: DIMACS = True
+  if len(sys.argv)<2: sys.stderr.write("usage: python convCNF.py <propositional_kb> [-DIMACS]\n"); sys.exit(0)
+  if "-DIMACS" in sys.argv: DIMACS = True
+  file_write_content = ""
+  for line in open(sys.argv[1]):
+    line = line.rstrip()
+    #print("# "+line)
+    if line.startswith('#') or len(line)==0: continue
+    if '#' in line: line = line[:line.index('#')]
+    toks = tokenize(line)
+    expr = Sexpr(toks,0) # I could check this: validate_PropLog(expr)
 
- for line in open(sys.argv[1]):
-  line = line.rstrip()
-  print("# "+line)
-  if line.startswith('#') or len(line)==0: continue
-  if '#' in line: line = line[:line.index('#')]
-  toks = tokenize(line)
-  expr = Sexpr(toks,0) # I could check this: validate_PropLog(expr)
+    cnf = convCNF(expr)
 
-  cnf = convCNF(expr)
+    if is_conjunction(cnf): clauses = cnf.list[1:]
+    else: clauses = [cnf]
+    clauses = [or_wrapper(c) for c in clauses] # make sure clauses have an 'or' at the top level; (should not have 'and's at top level)
 
-  if is_conjunction(cnf): clauses = cnf.list[1:]
-  else: clauses = [cnf]
-  clauses = [or_wrapper(c) for c in clauses] # make sure clauses have an 'or' at the top level; (should not have 'and's at top level)
-
-  print("")
-  if DIMACS:
-    for clause in clauses: print(clause.toDIMACS())
-  else:
-    for clause in clauses: print(clause.toString())
-  print("")
+    #print("")
+    f = open(sys.argv[1].replace(".kb", "CNF.kb"), "w")
+    if DIMACS:
+      for clause in clauses: 
+        #print(clause.toDIMACS())
+        file_write_content += clause.toDIMACS() +'\n'
+    else:
+      for clause in clauses: 
+        #print(clause.toString())
+        file_write_content += clause.toString() + '\n'
+    #print("")
+  f.write(file_write_content)
