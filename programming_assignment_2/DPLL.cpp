@@ -142,8 +142,6 @@ pair<string, int> findPureSymbol(const vector<vector<string>>& clauses, const ve
 
 
 bool DPLL(vector<vector<string>> clauses, vector<string> symbols, unordered_map<string, int> &model) {
-    printUniqueSymbols(model);
-    cout << endl;
     for (size_t i = 0; i < clauses.size(); i++) {
         // 1: true clause
         // 0: clause truth value unknown (all symbols are 0)
@@ -233,8 +231,9 @@ int main(int argc, char* argv[]) {
     // Perform DPLL
     if (DPLL(kb, symbols, model)) {
         cout << "Success!" << endl;
+        printUniqueSymbols(model);
     } else {
-        cout << "DPLL Failed. Exiting..." << endl;
+        cout << "No solution possible, exiting..." << endl;
     }
     return 0;
 }
