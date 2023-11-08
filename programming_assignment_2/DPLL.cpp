@@ -8,24 +8,9 @@
 const char* DIMACS_FLAG = " -DIMACS";
 bool UNIT_CLAUSE = false;
 bool PURE_SYMBOL = false;
+int num_calls = 0;
 
 using namespace std;
-
-int convertFileToCNF(const char* filename) {
-    // Construct the Python command string with the dynamic filename
-    string python_script = "python3 convCNF.py ";
-    python_script += filename;
-    python_script += DIMACS_FLAG;
-
-    // Call the Python script
-    int result = system(python_script.c_str());
-
-    if (result != 0) {
-        return -1;
-    }
-
-    return 0;
-}
 
 int populateKB(string cnf_filename, vector<vector<string>> &kb, unordered_map<string, int> &symbols) {
     fstream file;
@@ -54,14 +39,13 @@ int populateKB(string cnf_filename, vector<vector<string>> &kb, unordered_map<st
     return 0;
 }
 
-void printUniqueSymbols(unordered_map<string, int> symbols) {
+void printCurrentModel(unordered_map<string, int> symbols) {
     std::cout << "Model = {";
     for (auto it = symbols.begin(); it != symbols.end(); it++) {
         cout << it->first << " : " << it-> second << ", ";
     }
     std::cout << "}" << std::endl;
 }
-
 
 // Function to check if a clause is satisfied in the current model
 bool isClauseSatisfied(const vector<string>& clause, const unordered_map<string, int>& model) {
@@ -94,10 +78,31 @@ bool checkClauseUnassigned(const vector<string>& clause, const unordered_map<str
     return false;
 }
 
+pair<string, int> findUnitClause(const vector<vector<string>>& clauses, const unordered_map<string, int>& model) {
+    for (const vector<string>& clause : clauses) {
+        int unassigned_count = 0;
+        string unassigned_symbol = "";
+        for (const string& symbol : clause) {
+            int value = model.at(symbol);
+            if (value == 0) {
+                unassigned_count++;
+                unassigned_symbol = symbol;
+            } else if (value == 1) {
+                unassigned_count = -1;  // The clause is already satisfied
+                break;
+            }
+        }
+        if (unassigned_count == 1) {
+            return make_pair(unassigned_symbol, 1);
+        }
+    }
+    return make_pair("", 0);  // No unit clause found
+}
+
 bool DPLL(vector<vector<string>> clauses, vector<string> symbols, unordered_map<string, int> model) {
-    std::cout << "Trying..." << std::endl;
-    printUniqueSymbols(model);
-    std::cout << std::endl;
+    num_calls++;
+    printCurrentModel(model);
+    //std::cout << std::endl;
     // Check if every clause is true in the current model
     bool all_clauses_satisfied = true;
     bool unassigned_variables = false;
@@ -113,6 +118,10 @@ bool DPLL(vector<vector<string>> clauses, vector<string> symbols, unordered_map<
         }
     }
     if (all_clauses_satisfied) {
+        cout << endl << "### DPLL SUCCESSFUL ###" << endl;
+        cout << "Total number of DPLL calls: " << num_calls << endl;
+        cout << "Final model: " << endl;
+        printCurrentModel(model);
         return true;
     } 
     // Check if some clause is false in the current model
@@ -124,12 +133,23 @@ bool DPLL(vector<vector<string>> clauses, vector<string> symbols, unordered_map<
                 continue;
             }
         }
+        cout << "backtracking" << endl;
         return false;
     }    
     
     if (UNIT_CLAUSE) {
         // P, value ← FIND-UNIT-CLAUSE(clauses, model)
         cout << "unit clause" << endl;
+        pair<string, int> unitClause = findUnitClause(clauses, model);
+        if (!unitClause.first.empty()) {
+            //symbols.erase(symbols.begin(), symbols.end(), unitClause.first);
+            model[unitClause.first] = unitClause.second;
+            return DPLL(clauses, symbols, model);
+        }
+
+        if (symbols.empty()) {
+            return false;  // All symbols assigned, but not all clauses satisfied
+        }
         // if P is non-null then return DPLL(clauses, symbols – P, model ∪ {P=value})
     }
     // P ← FIRST(symbols); rest ← REST(symbols)
@@ -139,10 +159,14 @@ bool DPLL(vector<vector<string>> clauses, vector<string> symbols, unordered_map<
     // return DPLL(clauses, rest, model ∪ {P=true}) or
     // DPLL(clauses, rest, model ∪ {P=false}))
     model[P] = 1;
+    cout << endl;
+    cout << "trying " << P << "=" << "T" << endl; 
     if (DPLL(clauses, rest, model)) {
         return true;
     } else {
         model[P] = -1;
+        cout << endl;
+        cout << "trying " << P << "=" << "F" << endl;
         return DPLL(clauses, rest, model);
     }
 }
@@ -168,21 +192,10 @@ int main(int argc, char* argv[]) {
         }
         arg_num++;
     }
-
-    // Read in original file, convert to CNF, and store in new file
-    if (convertFileToCNF(filename) < 0) {
-        cerr << "Error converting file KB to CNF." << endl;
-        return 0;
-    }
-
-    // Convert filename to new cnf file
-    string cnf_filename = string(filename);
-    cnf_filename.replace(cnf_filename.find(".kb"), 3, "CNF.kb");
-
-    // Populate KB using the CNF format
+    // Populate KB using the CNF format, including new facts
     vector<vector<string>> kb; // 1 = true, -1 = false, 0 = unknown 
     unordered_map<string, int> model;
-    if (populateKB(cnf_filename, kb, model) < 0) {
+    if (populateKB(filename, kb, model) < 0) {
         cerr << "Failed to open the CNF file." << endl;
         return 0;
     }
@@ -216,11 +229,8 @@ int main(int argc, char* argv[]) {
     }
     
     // Perform DPLL
-    if (DPLL(kb, symbols, model)) {
-        cout << "Success!" << endl;
-        //printUniqueSymbols(model);
-    } else {
-        cout << "No solution possible, exiting..." << endl;
+    if (!DPLL(kb, symbols, model)) {
+        cout << "No solution possible (problem is unsatisfiable)" << endl;
     }
     
     return 0;
