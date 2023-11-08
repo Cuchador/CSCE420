@@ -1,7 +1,0 @@
-dogFido
-(not barkFido)
-(or wagFido barkFido (not awakeFido))
-(-> dogFido mammalFido)
-(-> (or on_A_B (and on_A_C on_C_B)) above_A_B)
-(<-> rainy (not sunny))
-(xor dogFido catFido)
