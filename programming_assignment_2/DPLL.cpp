@@ -7,6 +7,7 @@
 
 const char* DIMACS_FLAG = " -DIMACS";
 bool UNIT_CLAUSE = false;
+bool PURE_SYMBOL = false;
 
 using namespace std;
 
@@ -54,124 +55,77 @@ int populateKB(string cnf_filename, vector<vector<string>> &kb, unordered_map<st
 }
 
 void printUniqueSymbols(unordered_map<string, int> symbols) {
+    std::cout << "Model = {";
     for (auto it = symbols.begin(); it != symbols.end(); it++) {
-        cout << it->first << " : " << it-> second << endl;
+        cout << it->first << " : " << it-> second << ", ";
     }
+    std::cout << "}" << std::endl;
 }
 
-int evaluateClause(vector<string> clause, unordered_map<string, int> model) {
-    bool unknown = false;
-    bool curr_truth = false;
-    for (string symbol : clause) {
-        // Find if the symbol should be negated
-        bool negate = (symbol[0] == '-');
-        if (negate) {
-            symbol.erase(0, 1);
-        }
-        if (model[symbol] == -1) {
-            if (negate) {
-                return 1;
+
+// Function to check if a clause is satisfied in the current model
+bool isClauseSatisfied(const vector<string>& clause, const unordered_map<string, int>& model) {
+    for (const string& symbol : clause) {
+        if (symbol[0] == '-') {
+            if (model.at(symbol.substr(1)) == -1) {
+                return true;  // The clause is true in the current model
             }
-        } else if (model[symbol] == 1) {
-            if (!negate) {
-                return 1;
+        } else {
+            if (model.at(symbol) == 1) {
+                return true;  // The clause is true in the current model
             }
-        } else { // there is an unknown symbol in the clause, we are not done
-            unknown = true;
         }
     }
-    if (unknown) { return 0; }
-    return -1;
+    return false;  // The clause is not satisfied in the current model
 }
 
-
-int getSymbolValue(const string& symbol, const unordered_map<string, int>& model) {
-    auto it = model.find(symbol);
-    if (it != model.end()) {
-        return it->second;
+bool checkClauseUnassigned(const vector<string>& clause, const unordered_map<string, int>& model) {
+    for (const string& symbol : clause) {
+        if (symbol[0] == '-') {
+            if (model.at(symbol.substr(1)) == 0) {
+                return true;  // The clause is true in the current model
+            }
+        } else {
+            if (model.at(symbol) == 0) {
+                return true;  // The clause is true in the current model
+            }
+        }
     }
-    return 0; // Default to unknown if not found in the model.
+    return false;
 }
 
-pair<string, int> findPureSymbol(const vector<vector<string>>& clauses, const vector<string>& symbols, const unordered_map<string, int>& model) {
+bool DPLL(vector<vector<string>> clauses, vector<string> symbols, unordered_map<string, int> model) {
+    std::cout << "Trying..." << std::endl;
+    printUniqueSymbols(model);
+    std::cout << std::endl;
+    // Check if every clause is true in the current model
+    bool all_clauses_satisfied = true;
+    bool unassigned_variables = false;
     for (const string& symbol : symbols) {
-        int symbolValue = getSymbolValue(symbol, model);
-
-        if (symbolValue == 0) { // If the symbol's value is unknown in the model
-            bool isPure = true;
-            bool foundPos = false;
-            bool foundNeg = false;
-
-            for (const vector<string>& clause : clauses) {
-                for (const string& literal : clause) {
-                    if (literal == symbol) {
-                        foundPos = true;
-                        if (foundNeg) {
-                            isPure = false;
-                            break;
-                        }
-                    } else if (literal == '-' + symbol) {
-                        foundNeg = true;
-                        if (foundPos) {
-                            isPure = false;
-                            break;
-                        }
-                    }
-                }
-
-                if (!isPure) {
-                    break;
-                }
-            }
-
-            if (isPure) {
-                // You can return the symbol along with its truth assignment:
-                if (foundPos) {
-                    return pair<string, int>(symbol, 1);
-                } else {
-                    return pair<string, int>(symbol, -1);
-                }
-                // Or you can simply return the literal as it appears in the clauses:
-                // return symbol;
-            }
+        if (model[symbol] == 0) {
+            unassigned_variables = true;
         }
     }
-    
-    return pair<string, int>("", 0);;
-}
-
-
-bool DPLL(vector<vector<string>> clauses, vector<string> symbols, unordered_map<string, int> &model) {
-    for (size_t i = 0; i < clauses.size(); i++) {
-        // 1: true clause
-        // 0: clause truth value unknown (all symbols are 0)
-        // -1: false clause, return false
-        int clause_truth =  evaluateClause(clauses[i], model);
-        // if every clause in clauses is true in model then return true
-        if (clause_truth == 1 && i == clauses.size() - 1) { return true; }
-        // if some clause in clauses is false in model then return false
-        if (clause_truth == -1) {
-            //cout << "here" << endl;
-            return false; 
+    for (const vector<string>& clause : clauses) {
+        if (!isClauseSatisfied(clause, model)) {
+            all_clauses_satisfied = false;
+            break;
         }
-        // if there is an unknown clause, not done
-        if (clause_truth == 0) { break; }
     }
-    // P, value ← FIND-PURE-SYMBOL(symbols, clauses, model)
-    //pair<string, bool> pure_symbol_value_pair = findPureSymbol(clauses, symbols, model);
-    pair<string, int> pure_symbol = findPureSymbol(clauses, symbols, model);
-    // if P is non-null then return DPLL(clauses, symbols – P, model ∪ {P=value})
-    if (pure_symbol.first != "") {
-        model[pure_symbol.first] = pure_symbol.second;
-        for (auto it = symbols.begin(); it != symbols.end(); it++) {
-            if (*it == pure_symbol.first) {
-                //cout << pure_symbol.first << endl;
-                symbols.erase(it);
-                break;
+    if (all_clauses_satisfied) {
+        return true;
+    } 
+    // Check if some clause is false in the current model
+    for (const vector<string>& clause : clauses) {
+        if (isClauseSatisfied(clause, model)) {
+            continue;
+        } else {
+            if (checkClauseUnassigned(clause, model)) {
+                continue;
             }
         }
-        return DPLL(clauses, symbols, model);
-    }
+        return false;
+    }    
     
     if (UNIT_CLAUSE) {
         // P, value ← FIND-UNIT-CLAUSE(clauses, model)
@@ -179,19 +133,18 @@ bool DPLL(vector<vector<string>> clauses, vector<string> symbols, unordered_map<
         // if P is non-null then return DPLL(clauses, symbols – P, model ∪ {P=value})
     }
     // P ← FIRST(symbols); rest ← REST(symbols)
+    string P = symbols[0];
+    vector<string> rest(symbols.begin()+1, symbols.end());
+    
     // return DPLL(clauses, rest, model ∪ {P=true}) or
     // DPLL(clauses, rest, model ∪ {P=false}))
-    string P = symbols.back();
-    symbols.pop_back();
-    
     model[P] = 1;
-    if (DPLL(clauses, symbols, model)) {
+    if (DPLL(clauses, rest, model)) {
         return true;
     } else {
         model[P] = -1;
-        return DPLL(clauses, symbols, model);
+        return DPLL(clauses, rest, model);
     }
-    return false;
 }
 
 
@@ -199,10 +152,22 @@ int main(int argc, char* argv[]) {
     // Handle all command line input
     if (argc < 2) {
         cout << "Usage: DPLL <filename> <literal>* [+UCH]" << endl;
+        std::cout << "*literal is optional" << std::endl;
         return 0;
     }
     const char* filename = argv[1];
     bool DIMACS = true;
+    bool UCH = false;
+    int arg_num = 2;
+    std::vector<std::string> facts;
+    while (arg_num < argc) {
+        if (argv[arg_num] == "-UCH") {
+            UCH = true;
+        } else {
+            facts.push_back(argv[arg_num]);
+        }
+        arg_num++;
+    }
 
     // Read in original file, convert to CNF, and store in new file
     if (convertFileToCNF(filename) < 0) {
@@ -222,18 +187,41 @@ int main(int argc, char* argv[]) {
         return 0;
     }
     
-    // Get a vector the unique symbols
+    // Get a vector the unique symbols, excluding known facts
     vector<string> symbols;
     for (auto symbol : model) {
-        symbols.push_back(symbol.first);
+        if (!facts.empty()) {
+            for (std::string fact : facts) {
+            if (fact[0] == '-') {
+                if (fact.substr(1) != symbol.first) {
+                    symbols.push_back(symbol.first);
+                }
+            } else {
+                if (fact != symbol.first) {
+                    symbols.push_back(symbol.first);
+                }
+            }
+            }
+        } else {
+            symbols.push_back(symbol.first);
+        }
     }
 
+    for (std::string fact : facts) {
+        if (fact[0] == '-') {
+            model[fact.substr(1)] = -1;
+        } else {
+            model[fact] = 1;
+        }
+    }
+    
     // Perform DPLL
     if (DPLL(kb, symbols, model)) {
         cout << "Success!" << endl;
-        printUniqueSymbols(model);
+        //printUniqueSymbols(model);
     } else {
         cout << "No solution possible, exiting..." << endl;
     }
+    
     return 0;
 }
