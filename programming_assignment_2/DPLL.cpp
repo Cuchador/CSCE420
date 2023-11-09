@@ -132,7 +132,7 @@ pair<string, int> findUnitClause(const vector<vector<string>>& clauses, const un
 
 bool DPLL(vector<vector<string>> clauses, vector<string> symbols, unordered_map<string, int> model) {
     num_calls++;
-    //printCurrentModel(model);
+    printCurrentModel(model);
     // Check if every clause is true in the current model
     bool all_clauses_satisfied = true;
     bool unassigned_variables = false;
@@ -180,7 +180,7 @@ bool DPLL(vector<vector<string>> clauses, vector<string> symbols, unordered_map<
             return true;
             string assignment = (unit_clause.second == 1) ? "true" : "false";
             if (!ONLY_FINAL_PRINT) { cout << endl <<"forcing " << unit_clause.first << "=" <<  assignment << endl; }
-            return true;
+
             vector<string> rest(symbols);
             for (size_t i = 0; i < rest.size(); i++) {
                 if (rest[i] == unit_clause.first) {
