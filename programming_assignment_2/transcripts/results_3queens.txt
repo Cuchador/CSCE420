@@ -1,0 +1,118 @@
+
+trying Q33=T
+
+trying Q32=T
+backtracking
+
+trying Q32=F
+
+trying Q23=T
+backtracking
+
+trying Q23=F
+
+trying Q22=T
+backtracking
+
+trying Q22=F
+
+trying Q21=T
+
+trying Q31=T
+backtracking
+
+trying Q31=F
+
+trying Q13=T
+backtracking
+
+trying Q13=F
+
+trying Q12=T
+backtracking
+
+trying Q12=F
+backtracking
+
+trying Q21=F
+backtracking
+
+trying Q33=F
+
+trying Q32=T
+
+trying Q23=T
+backtracking
+
+trying Q23=F
+
+trying Q22=T
+backtracking
+
+trying Q22=F
+
+trying Q21=T
+backtracking
+
+trying Q21=F
+backtracking
+
+trying Q32=F
+
+trying Q23=T
+
+trying Q22=T
+backtracking
+
+trying Q22=F
+
+trying Q21=T
+backtracking
+
+trying Q21=F
+
+trying Q31=T
+
+trying Q13=T
+backtracking
+
+trying Q13=F
+
+trying Q12=T
+backtracking
+
+trying Q12=F
+backtracking
+
+trying Q31=F
+backtracking
+
+trying Q23=F
+
+trying Q22=T
+
+trying Q21=T
+backtracking
+
+trying Q21=F
+
+trying Q31=T
+backtracking
+
+trying Q31=F
+backtracking
+
+trying Q22=F
+
+trying Q21=T
+
+trying Q31=T
+backtracking
+
+trying Q31=F
+backtracking
+
+trying Q21=F
+backtracking
+No solution possible (problem is unsatisfiable)
+Total number of DPLL calls: 47

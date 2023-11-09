@@ -1,0 +1,183 @@
+
+trying SAB=T
+backtracking
+
+trying SAB=F
+
+trying SAG=T
+backtracking
+
+trying SAG=F
+
+trying SAR=T
+
+trying VG=T
+backtracking
+
+trying VG=F
+
+trying WAR=T
+backtracking
+
+trying WAR=F
+
+trying VR=T
+backtracking
+
+trying VR=F
+
+trying NSWB=T
+backtracking
+
+trying NSWB=F
+
+trying QB=T
+backtracking
+
+trying QB=F
+
+trying WAG=T
+
+trying WAB=T
+backtracking
+
+trying WAB=F
+
+trying NSWR=T
+backtracking
+
+trying NSWR=F
+
+trying NTR=T
+backtracking
+
+trying NTR=F
+
+trying TB=T
+
+trying NTG=T
+backtracking
+
+trying NTG=F
+
+trying NTB=T
+
+trying TG=T
+backtracking
+
+trying TG=F
+
+trying TR=T
+backtracking
+
+trying TR=F
+
+trying QR=T
+backtracking
+
+trying QR=F
+
+trying NSWG=T
+backtracking
+
+trying NSWG=F
+backtracking
+
+trying NTB=F
+backtracking
+
+trying TB=F
+
+trying NTG=T
+backtracking
+
+trying NTG=F
+
+trying NTB=T
+
+trying TG=T
+
+trying TR=T
+backtracking
+
+trying TR=F
+
+trying QR=T
+backtracking
+
+trying QR=F
+
+trying NSWG=T
+backtracking
+
+trying NSWG=F
+backtracking
+
+trying TG=F
+
+trying TR=T
+
+trying QR=T
+backtracking
+
+trying QR=F
+
+trying NSWG=T
+backtracking
+
+trying NSWG=F
+backtracking
+
+trying TR=F
+backtracking
+
+trying NTB=F
+backtracking
+
+trying WAG=F
+
+trying WAB=T
+
+trying NSWR=T
+backtracking
+
+trying NSWR=F
+
+trying NTR=T
+backtracking
+
+trying NTR=F
+
+trying TB=T
+
+trying NTG=T
+backtracking
+
+trying NTG=F
+
+trying NTB=T
+backtracking
+
+trying NTB=F
+backtracking
+
+trying TB=F
+
+trying NTG=T
+backtracking
+
+trying NTG=F
+
+trying NTB=T
+backtracking
+
+trying NTB=F
+backtracking
+
+trying WAB=F
+backtracking
+
+trying SAR=F
+backtracking
+No solution possible (problem is unsatisfiable)
+Total number of DPLL calls: 73

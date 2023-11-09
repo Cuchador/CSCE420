@@ -46,101 +46,6 @@ backtracking
 trying WAB=F
 
 trying NSWR=T
-
-trying NTR=T
-backtracking
-
-trying NTR=F
-
-trying TB=T
-
-trying NTG=T
-
-trying NTB=T
-backtracking
-
-trying NTB=F
-
-trying TG=T
-backtracking
-
-trying TG=F
-
-trying TR=T
-backtracking
-
-trying TR=F
-
-trying QG=T
-backtracking
-
-trying QG=F
-
-trying QR=T
-backtracking
-
-trying QR=F
-backtracking
-
-trying NTG=F
-
-trying NTB=T
-backtracking
-
-trying NTB=F
-backtracking
-
-trying TB=F
-
-trying NTG=T
-
-trying NTB=T
-backtracking
-
-trying NTB=F
-
-trying TG=T
-
-trying TR=T
-backtracking
-
-trying TR=F
-
-trying QG=T
-backtracking
-
-trying QG=F
-
-trying QR=T
-backtracking
-
-trying QR=F
-backtracking
-
-trying TG=F
-
-trying TR=T
-
-trying QG=T
-backtracking
-
-trying QG=F
-
-trying QR=T
-backtracking
-
-trying QR=F
-backtracking
-
-trying TR=F
-backtracking
-
-trying NTG=F
-
-trying NTB=T
-backtracking
-
-trying NTB=F
 backtracking
 
 trying NSWR=F
@@ -174,15 +79,10 @@ backtracking
 
 trying QG=F
 
-trying QR=T
-
 trying NSWG=T
 backtracking
 
 trying NSWG=F
-backtracking
-
-trying QR=F
 backtracking
 
 trying NTG=F
@@ -214,15 +114,10 @@ backtracking
 
 trying QG=F
 
-trying QR=T
-
 trying NSWG=T
 backtracking
 
 trying NSWG=F
-backtracking
-
-trying QR=F
 backtracking
 
 trying TG=F
@@ -234,15 +129,10 @@ backtracking
 
 trying QG=F
 
-trying QR=T
-
 trying NSWG=T
 backtracking
 
 trying NSWG=F
-backtracking
-
-trying QR=F
 backtracking
 
 trying TR=F
@@ -281,8 +171,14 @@ backtracking
 trying WAB=F
 
 trying NSWR=T
+backtracking
+
+trying NSWR=F
 
 trying NTR=T
+backtracking
+
+trying NTR=F
 
 trying TB=T
 
@@ -290,6 +186,78 @@ trying NTG=T
 backtracking
 
 trying NTG=F
+
+trying NTB=T
+backtracking
+
+trying NTB=F
+backtracking
+
+trying TB=F
+
+trying NTG=T
+backtracking
+
+trying NTG=F
+
+trying NTB=T
+backtracking
+
+trying NTB=F
+backtracking
+
+trying WAG=F
+
+trying WAB=T
+backtracking
+
+trying WAB=F
+backtracking
+
+trying VG=F
+
+trying VB=T
+backtracking
+
+trying VB=F
+
+trying WAR=T
+
+trying VR=T
+
+trying NSWB=T
+backtracking
+
+trying NSWB=F
+
+trying QB=T
+backtracking
+
+trying QB=F
+
+trying WAG=T
+backtracking
+
+trying WAG=F
+
+trying WAB=T
+backtracking
+
+trying WAB=F
+
+trying NSWR=T
+backtracking
+
+trying NSWR=F
+
+trying NTR=T
+backtracking
+
+trying NTR=F
+
+trying TB=T
+
+trying NTG=T
 
 trying NTB=T
 backtracking
@@ -307,23 +275,18 @@ backtracking
 trying TR=F
 
 trying QG=T
-
-trying QR=T
 backtracking
 
-trying QR=F
+trying QG=F
 
 trying NSWG=T
-backtracking
-
-trying NSWG=F
 
 ### DPLL SUCCESSFUL ###
-Total number of DPLL calls: 130
+Total number of DPLL calls: 115
 Final model: 
-Model = {SAB : 1, SAG : -1, SAR : -1, VG : 1, VB : -1, WAR : -1, VR : -1, NSWB : -1, QB : -1, WAG : 1, WAB : -1, NSWR : 1, NTR : 1, TB : 1, NTG : -1, NTB : -1, TG : -1, TR : -1, QG : 1, QR : -1, NSWG : -1, }
+Model = {SAB : 1, SAG : -1, SAR : -1, VG : -1, VB : -1, WAR : 1, VR : 1, NSWB : -1, QB : -1, WAG : -1, WAB : -1, NSWR : -1, NTR : -1, TB : 1, NTG : 1, NTB : -1, TG : -1, TR : -1, QG : -1, QR : 1, NSWG : 1, }
 
 Satisfied (true) propositions:
-SAB VG WAG NSWR NTR TB QG 
-Total number of DPLL calls: 130
+SAB WAR VR TB NTG QR NSWG 
+Total number of DPLL calls: 115
 UCH=False

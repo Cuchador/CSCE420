@@ -1,0 +1,6264 @@
+
+trying O3W=T
+
+trying O2Y=T
+
+trying O1W=T
+
+trying L3Y=T
+
+trying L2W=T
+
+trying C2B=T
+
+trying L3W=T
+
+trying L2B=T
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying L3W=F
+
+trying L2B=T
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+
+trying C3W=T
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2B=F
+
+trying L3W=T
+
+trying L2B=T
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying L3W=F
+
+trying L2B=T
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying L2W=F
+
+trying C2B=T
+
+trying L3W=T
+
+trying L2B=T
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2W=F
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying L3W=F
+
+trying L2B=T
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2W=F
+
+trying C3W=T
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2B=F
+
+trying L3W=T
+
+trying L2B=T
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying L3W=F
+
+trying L2B=T
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying L3Y=F
+
+trying L2W=T
+
+trying C2B=T
+
+trying L3W=T
+
+trying L2B=T
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying L3W=F
+
+trying L2B=T
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+
+trying C3W=T
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2B=F
+
+trying L3W=T
+
+trying L2B=T
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying L3W=F
+
+trying L2B=T
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying L2W=F
+
+trying C2B=T
+
+trying L3W=T
+
+trying L2B=T
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2W=F
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying L3W=F
+
+trying L2B=T
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2W=F
+
+trying C3W=T
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2B=F
+
+trying L3W=T
+
+trying L2B=T
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying L3W=F
+
+trying L2B=T
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying O1W=F
+
+trying L3Y=T
+
+trying L2W=T
+
+trying C2B=T
+
+trying L3W=T
+
+trying L2B=T
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying L3W=F
+
+trying L2B=T
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+
+trying C3W=T
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+
+trying C3B=T
+backtracking
+
+trying C3B=F
+
+trying C3Y=T
+backtracking
+
+trying C3Y=F
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2B=F
+
+trying L3W=T
+
+trying L2B=T
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying L3W=F
+
+trying L2B=T
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying L2W=F
+
+trying C2B=T
+
+trying L3W=T
+
+trying L2B=T
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2W=F
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying L3W=F
+
+trying L2B=T
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2W=F
+
+trying C3W=T
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+
+trying C3B=T
+backtracking
+
+trying C3B=F
+
+trying C3Y=T
+backtracking
+
+trying C3Y=F
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2B=F
+
+trying L3W=T
+
+trying L2B=T
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying L3W=F
+
+trying L2B=T
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying L3Y=F
+
+trying L2W=T
+
+trying C2B=T
+
+trying L3W=T
+
+trying L2B=T
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying L3W=F
+
+trying L2B=T
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+
+trying C3W=T
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+
+trying C3B=T
+backtracking
+
+trying C3B=F
+
+trying C3Y=T
+backtracking
+
+trying C3Y=F
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2B=F
+
+trying L3W=T
+
+trying L2B=T
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying L3W=F
+
+trying L2B=T
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying L2W=F
+
+trying C2B=T
+
+trying L3W=T
+
+trying L2B=T
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2W=F
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying L3W=F
+
+trying L2B=T
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2W=F
+
+trying C3W=T
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+
+trying C3B=T
+backtracking
+
+trying C3B=F
+
+trying C3Y=T
+backtracking
+
+trying C3Y=F
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2B=F
+
+trying L3W=T
+
+trying L2B=T
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying L3W=F
+
+trying L2B=T
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying O2Y=F
+
+trying O1W=T
+
+trying L3Y=T
+
+trying L2W=T
+
+trying C2B=T
+
+trying L3W=T
+
+trying L2B=T
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying L3W=F
+
+trying L2B=T
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+
+trying C3W=T
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2B=F
+
+trying L3W=T
+
+trying L2B=T
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+backtracking
+
+trying L3W=F
+
+trying L2B=T
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+backtracking
+
+trying L2W=F
+
+trying C2B=T
+
+trying L3W=T
+
+trying L2B=T
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2W=F
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying L3W=F
+
+trying L2B=T
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2W=F
+
+trying C3W=T
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2B=F
+
+trying L3W=T
+
+trying L2B=T
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+
+trying C3B=T
+backtracking
+
+trying C3B=F
+backtracking
+
+trying C1Y=F
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+
+trying C3B=T
+backtracking
+
+trying C3B=F
+backtracking
+
+trying C2W=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2W=F
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+
+trying C3B=T
+backtracking
+
+trying C3B=F
+backtracking
+
+trying C1Y=F
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+
+trying C3B=T
+backtracking
+
+trying C3B=F
+backtracking
+
+trying C2W=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2W=F
+backtracking
+
+trying L3W=F
+
+trying L2B=T
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+
+trying C3B=T
+backtracking
+
+trying C3B=F
+backtracking
+
+trying C1Y=F
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+
+trying C3B=T
+backtracking
+
+trying C3B=F
+backtracking
+
+trying C2W=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2W=F
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+
+trying C3B=T
+backtracking
+
+trying C3B=F
+backtracking
+
+trying C1Y=F
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+
+trying C3B=T
+backtracking
+
+trying C3B=F
+backtracking
+
+trying C2W=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2W=F
+backtracking
+
+trying L3Y=F
+
+trying L2W=T
+
+trying C2B=T
+
+trying L3W=T
+
+trying L2B=T
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying L3W=F
+
+trying L2B=T
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+
+trying C3W=T
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2B=F
+
+trying L3W=T
+
+trying L2B=T
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+backtracking
+
+trying L3W=F
+
+trying L2B=T
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+backtracking
+
+trying L2W=F
+
+trying C2B=T
+
+trying L3W=T
+
+trying L2B=T
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2W=F
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying L3W=F
+
+trying L2B=T
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2W=F
+
+trying C3W=T
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2B=F
+
+trying L3W=T
+
+trying L2B=T
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+
+trying C3B=T
+backtracking
+
+trying C3B=F
+backtracking
+
+trying C1Y=F
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+
+trying C3B=T
+backtracking
+
+trying C3B=F
+backtracking
+
+trying C2W=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2W=F
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+
+trying C3B=T
+backtracking
+
+trying C3B=F
+backtracking
+
+trying C1Y=F
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+
+trying C3B=T
+backtracking
+
+trying C3B=F
+backtracking
+
+trying C2W=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2W=F
+backtracking
+
+trying L3W=F
+
+trying L2B=T
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+
+trying C3B=T
+backtracking
+
+trying C3B=F
+backtracking
+
+trying C1Y=F
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+
+trying C3B=T
+backtracking
+
+trying C3B=F
+backtracking
+
+trying C2W=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2W=F
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+
+trying C3B=T
+backtracking
+
+trying C3B=F
+backtracking
+
+trying C1Y=F
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+
+trying C3B=T
+backtracking
+
+trying C3B=F
+backtracking
+
+trying C2W=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2W=F
+backtracking
+
+trying O1W=F
+
+trying L3Y=T
+
+trying L2W=T
+
+trying C2B=T
+
+trying L3W=T
+
+trying L2B=T
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying L3W=F
+
+trying L2B=T
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+
+trying C3W=T
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+
+trying C3B=T
+backtracking
+
+trying C3B=F
+
+trying C3Y=T
+backtracking
+
+trying C3Y=F
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2B=F
+
+trying L3W=T
+
+trying L2B=T
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+backtracking
+
+trying L3W=F
+
+trying L2B=T
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+backtracking
+
+trying L2W=F
+
+trying C2B=T
+
+trying L3W=T
+
+trying L2B=T
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2W=F
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying L3W=F
+
+trying L2B=T
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2W=F
+
+trying C3W=T
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+
+trying C3B=T
+backtracking
+
+trying C3B=F
+
+trying C3Y=T
+backtracking
+
+trying C3Y=F
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2B=F
+
+trying L3W=T
+
+trying L2B=T
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+
+trying C3B=T
+backtracking
+
+trying C3B=F
+backtracking
+
+trying C1Y=F
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+
+trying C3B=T
+backtracking
+
+trying C3B=F
+backtracking
+
+trying C2W=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+
+trying C3B=T
+backtracking
+
+trying C3B=F
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2W=F
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+
+trying C3B=T
+backtracking
+
+trying C3B=F
+backtracking
+
+trying C1Y=F
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+
+trying C3B=T
+backtracking
+
+trying C3B=F
+backtracking
+
+trying C2W=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+
+trying C3B=T
+backtracking
+
+trying C3B=F
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2W=F
+backtracking
+
+trying L3W=F
+
+trying L2B=T
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+
+trying C3B=T
+backtracking
+
+trying C3B=F
+backtracking
+
+trying C1Y=F
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+
+trying C3B=T
+backtracking
+
+trying C3B=F
+backtracking
+
+trying C2W=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+
+trying C3B=T
+backtracking
+
+trying C3B=F
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2W=F
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+
+trying C3B=T
+backtracking
+
+trying C3B=F
+backtracking
+
+trying C1Y=F
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+
+trying C3B=T
+backtracking
+
+trying C3B=F
+backtracking
+
+trying C2W=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+
+trying C3B=T
+backtracking
+
+trying C3B=F
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2W=F
+backtracking
+
+trying L3Y=F
+
+trying L2W=T
+
+trying C2B=T
+
+trying L3W=T
+
+trying L2B=T
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying L3W=F
+
+trying L2B=T
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+
+trying C3W=T
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+
+trying C3B=T
+backtracking
+
+trying C3B=F
+
+trying C3Y=T
+backtracking
+
+trying C3Y=F
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2B=F
+
+trying L3W=T
+
+trying L2B=T
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+backtracking
+
+trying L3W=F
+
+trying L2B=T
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+backtracking
+
+trying L2W=F
+
+trying C2B=T
+
+trying L3W=T
+
+trying L2B=T
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2W=F
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying L3W=F
+
+trying L2B=T
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2W=F
+
+trying C3W=T
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+
+trying C3B=T
+backtracking
+
+trying C3B=F
+
+trying C3Y=T
+backtracking
+
+trying C3Y=F
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2B=F
+
+trying L3W=T
+
+trying L2B=T
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+
+trying C3B=T
+backtracking
+
+trying C3B=F
+backtracking
+
+trying C1Y=F
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+
+trying C3B=T
+backtracking
+
+trying C3B=F
+backtracking
+
+trying C2W=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+
+trying C3B=T
+backtracking
+
+trying C3B=F
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2W=F
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+
+trying C3B=T
+backtracking
+
+trying C3B=F
+backtracking
+
+trying C1Y=F
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+
+trying C3B=T
+backtracking
+
+trying C3B=F
+backtracking
+
+trying C2W=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+
+trying C3B=T
+backtracking
+
+trying C3B=F
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2W=F
+backtracking
+
+trying L3W=F
+
+trying L2B=T
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+
+trying C3B=T
+backtracking
+
+trying C3B=F
+backtracking
+
+trying C1Y=F
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+
+trying C3B=T
+backtracking
+
+trying C3B=F
+backtracking
+
+trying C2W=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+
+trying C3B=T
+backtracking
+
+trying C3B=F
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2W=F
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+
+trying C3B=T
+backtracking
+
+trying C3B=F
+backtracking
+
+trying C1Y=F
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+
+trying C3B=T
+backtracking
+
+trying C3B=F
+backtracking
+
+trying C2W=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+
+trying C3B=T
+backtracking
+
+trying C3B=F
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2W=F
+backtracking
+
+trying O3W=F
+
+trying O2Y=T
+
+trying O1W=T
+
+trying L3Y=T
+
+trying L2W=T
+
+trying C2B=T
+
+trying L3W=T
+
+trying L2B=T
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying L3W=F
+
+trying L2B=T
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+
+trying C3W=T
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2B=F
+
+trying L3W=T
+
+trying L2B=T
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying L3W=F
+
+trying L2B=T
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying L2W=F
+
+trying C2B=T
+
+trying L3W=T
+
+trying L2B=T
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2W=F
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying L3W=F
+
+trying L2B=T
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2W=F
+
+trying C3W=T
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2B=F
+
+trying L3W=T
+
+trying L2B=T
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying L3W=F
+
+trying L2B=T
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying L3Y=F
+
+trying L2W=T
+
+trying C2B=T
+
+trying L3W=T
+
+trying L2B=T
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying L3W=F
+
+trying L2B=T
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+
+trying C3W=T
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2B=F
+
+trying L3W=T
+
+trying L2B=T
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying L3W=F
+
+trying L2B=T
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying L2W=F
+
+trying C2B=T
+
+trying L3W=T
+
+trying L2B=T
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2W=F
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying L3W=F
+
+trying L2B=T
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2W=F
+
+trying C3W=T
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2B=F
+
+trying L3W=T
+
+trying L2B=T
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying L3W=F
+
+trying L2B=T
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying O1W=F
+
+trying L3Y=T
+
+trying L2W=T
+
+trying C2B=T
+
+trying L3W=T
+
+trying L2B=T
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying L3W=F
+
+trying L2B=T
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+
+trying C3W=T
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+
+trying C3B=T
+backtracking
+
+trying C3B=F
+
+trying C3Y=T
+backtracking
+
+trying C3Y=F
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2B=F
+
+trying L3W=T
+
+trying L2B=T
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying L3W=F
+
+trying L2B=T
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying L2W=F
+
+trying C2B=T
+
+trying L3W=T
+
+trying L2B=T
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2W=F
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying L3W=F
+
+trying L2B=T
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2W=F
+
+trying C3W=T
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+
+trying C3B=T
+backtracking
+
+trying C3B=F
+
+trying C3Y=T
+backtracking
+
+trying C3Y=F
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2B=F
+
+trying L3W=T
+
+trying L2B=T
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying L3W=F
+
+trying L2B=T
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying L3Y=F
+
+trying L2W=T
+
+trying C2B=T
+
+trying L3W=T
+
+trying L2B=T
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying L3W=F
+
+trying L2B=T
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+
+trying C3W=T
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+
+trying C3B=T
+backtracking
+
+trying C3B=F
+
+trying C3Y=T
+backtracking
+
+trying C3Y=F
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2B=F
+
+trying L3W=T
+
+trying L2B=T
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying L3W=F
+
+trying L2B=T
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying L2W=F
+
+trying C2B=T
+
+trying L3W=T
+
+trying L2B=T
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2W=F
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying L3W=F
+
+trying L2B=T
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2W=F
+
+trying C3W=T
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+
+trying C3B=T
+backtracking
+
+trying C3B=F
+
+trying C3Y=T
+backtracking
+
+trying C3Y=F
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2B=F
+
+trying L3W=T
+
+trying L2B=T
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying L3W=F
+
+trying L2B=T
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+backtracking
+
+trying O2Y=F
+
+trying O1W=T
+
+trying L3Y=T
+
+trying L2W=T
+
+trying C2B=T
+
+trying L3W=T
+
+trying L2B=T
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying L3W=F
+
+trying L2B=T
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+
+trying C3W=T
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2B=F
+
+trying L3W=T
+
+trying L2B=T
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+backtracking
+
+trying L3W=F
+
+trying L2B=T
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+backtracking
+
+trying L2W=F
+
+trying C2B=T
+
+trying L3W=T
+
+trying L2B=T
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2W=F
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying L3W=F
+
+trying L2B=T
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2W=F
+
+trying C3W=T
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2B=F
+
+trying L3W=T
+
+trying L2B=T
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+
+trying C3B=T
+backtracking
+
+trying C3B=F
+backtracking
+
+trying C1Y=F
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+
+trying C3B=T
+backtracking
+
+trying C3B=F
+
+trying C3Y=T
+backtracking
+
+trying C3Y=F
+backtracking
+
+trying C2W=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2W=F
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+
+trying C3B=T
+backtracking
+
+trying C3B=F
+backtracking
+
+trying C1Y=F
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+
+trying C3B=T
+backtracking
+
+trying C3B=F
+
+trying C3Y=T
+backtracking
+
+trying C3Y=F
+backtracking
+
+trying C2W=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2W=F
+backtracking
+
+trying L3W=F
+
+trying L2B=T
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+
+trying C3B=T
+backtracking
+
+trying C3B=F
+backtracking
+
+trying C1Y=F
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+
+trying C3B=T
+backtracking
+
+trying C3B=F
+
+trying C3Y=T
+backtracking
+
+trying C3Y=F
+backtracking
+
+trying C2W=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2W=F
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+
+trying C3B=T
+backtracking
+
+trying C3B=F
+backtracking
+
+trying C1Y=F
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+
+trying C3B=T
+backtracking
+
+trying C3B=F
+
+trying C3Y=T
+backtracking
+
+trying C3Y=F
+backtracking
+
+trying C2W=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2W=F
+backtracking
+
+trying L3Y=F
+
+trying L2W=T
+
+trying C2B=T
+
+trying L3W=T
+
+trying L2B=T
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying L3W=F
+
+trying L2B=T
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+
+trying C3W=T
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2B=F
+
+trying L3W=T
+
+trying L2B=T
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+backtracking
+
+trying L3W=F
+
+trying L2B=T
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+backtracking
+
+trying C2W=F
+backtracking
+
+trying L2W=F
+
+trying C2B=T
+
+trying L3W=T
+
+trying L2B=T
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2W=F
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying L3W=F
+
+trying L2B=T
+backtracking
+
+trying L2B=F
+
+trying C1B=T
+backtracking
+
+trying C1B=F
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2W=F
+
+trying C3W=T
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+backtracking
+
+trying C1Y=F
+backtracking
+
+trying C2B=F
+
+trying L3W=T
+
+trying L2B=T
+
+trying C1B=T
+
+trying C2Y=T
+backtracking
+
+trying C2Y=F
+
+trying C2W=T
+
+trying C3W=T
+backtracking
+
+trying C3W=F
+
+trying C1Y=T
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+
+trying C3B=T
+backtracking
+
+trying C3B=F
+backtracking
+
+trying C1Y=F
+
+trying C1W=T
+backtracking
+
+trying C1W=F
+
+trying C3B=T
+backtracking
+
+trying C3B=F
+
+trying C3Y=T
+
+trying L1Y=T
+
+trying L1B=T
+backtracking
+
+trying L1B=F
+
+### DPLL SUCCESSFUL ###
+Total number of DPLL calls: 2504
+Final model: 
+Model = {O3W : -1, O3Y : 1, O2W : 1, O2Y : -1, O1W : 1, L3Y : -1, L2W : -1, C2B : -1, L3W : 1, L2B : 1, C1B : 1, L3B : 1, C2Y : -1, C2W : 1, C3W : -1, O1Y : 1, C1Y : -1, C1W : -1, C3B : -1, C3Y : 1, L2Y : 1, L1Y : 1, L1W : 1, L1B : -1, }
+
+Satisfied (true) propositions:
+O3Y O2W O1W L3W L2B C1B L3B C2W O1Y C3Y L2Y L1Y L1W 
+Total number of DPLL calls: 2504
+UCH=False

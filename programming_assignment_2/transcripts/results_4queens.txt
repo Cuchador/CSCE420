@@ -1,0 +1,338 @@
+
+trying Q44=T
+
+trying Q43=T
+backtracking
+
+trying Q43=F
+
+trying Q11=T
+backtracking
+
+trying Q11=F
+
+trying Q12=T
+
+trying Q13=T
+backtracking
+
+trying Q13=F
+
+trying Q21=T
+backtracking
+
+trying Q21=F
+
+trying Q22=T
+backtracking
+
+trying Q22=F
+
+trying Q24=T
+backtracking
+
+trying Q24=F
+
+trying Q41=T
+backtracking
+
+trying Q41=F
+
+trying Q23=T
+backtracking
+
+trying Q23=F
+backtracking
+
+trying Q12=F
+
+trying Q13=T
+
+trying Q21=T
+
+trying Q22=T
+backtracking
+
+trying Q22=F
+
+trying Q24=T
+backtracking
+
+trying Q24=F
+
+trying Q41=T
+backtracking
+
+trying Q41=F
+
+trying Q23=T
+backtracking
+
+trying Q23=F
+
+trying Q32=T
+backtracking
+
+trying Q32=F
+
+trying Q31=T
+backtracking
+
+trying Q31=F
+
+trying Q33=T
+backtracking
+
+trying Q33=F
+
+trying Q42=T
+backtracking
+
+trying Q42=F
+backtracking
+
+trying Q21=F
+
+trying Q22=T
+backtracking
+
+trying Q22=F
+
+trying Q24=T
+backtracking
+
+trying Q24=F
+
+trying Q41=T
+backtracking
+
+trying Q41=F
+
+trying Q23=T
+backtracking
+
+trying Q23=F
+backtracking
+
+trying Q13=F
+
+trying Q21=T
+
+trying Q22=T
+backtracking
+
+trying Q22=F
+
+trying Q24=T
+backtracking
+
+trying Q24=F
+
+trying Q41=T
+backtracking
+
+trying Q41=F
+
+trying Q23=T
+backtracking
+
+trying Q23=F
+
+trying Q32=T
+backtracking
+
+trying Q32=F
+
+trying Q31=T
+backtracking
+
+trying Q31=F
+
+trying Q33=T
+backtracking
+
+trying Q33=F
+backtracking
+
+trying Q21=F
+
+trying Q22=T
+backtracking
+
+trying Q22=F
+
+trying Q24=T
+backtracking
+
+trying Q24=F
+
+trying Q41=T
+backtracking
+
+trying Q41=F
+
+trying Q23=T
+
+trying Q32=T
+backtracking
+
+trying Q32=F
+
+trying Q31=T
+
+trying Q33=T
+backtracking
+
+trying Q33=F
+
+trying Q42=T
+backtracking
+
+trying Q42=F
+backtracking
+
+trying Q31=F
+backtracking
+
+trying Q23=F
+backtracking
+
+trying Q44=F
+
+trying Q43=T
+
+trying Q11=T
+
+trying Q12=T
+backtracking
+
+trying Q12=F
+
+trying Q13=T
+backtracking
+
+trying Q13=F
+
+trying Q21=T
+backtracking
+
+trying Q21=F
+
+trying Q22=T
+backtracking
+
+trying Q22=F
+
+trying Q24=T
+
+trying Q41=T
+backtracking
+
+trying Q41=F
+
+trying Q23=T
+backtracking
+
+trying Q23=F
+
+trying Q32=T
+backtracking
+
+trying Q32=F
+
+trying Q31=T
+backtracking
+
+trying Q31=F
+
+trying Q33=T
+backtracking
+
+trying Q33=F
+
+trying Q42=T
+backtracking
+
+trying Q42=F
+backtracking
+
+trying Q24=F
+
+trying Q41=T
+backtracking
+
+trying Q41=F
+
+trying Q23=T
+backtracking
+
+trying Q23=F
+backtracking
+
+trying Q11=F
+
+trying Q12=T
+
+trying Q13=T
+backtracking
+
+trying Q13=F
+
+trying Q21=T
+backtracking
+
+trying Q21=F
+
+trying Q22=T
+backtracking
+
+trying Q22=F
+
+trying Q24=T
+
+trying Q41=T
+backtracking
+
+trying Q41=F
+
+trying Q23=T
+backtracking
+
+trying Q23=F
+
+trying Q32=T
+backtracking
+
+trying Q32=F
+
+trying Q31=T
+
+trying Q33=T
+backtracking
+
+trying Q33=F
+
+trying Q42=T
+backtracking
+
+trying Q42=F
+
+trying Q14=T
+backtracking
+
+trying Q14=F
+
+trying Q34=T
+backtracking
+
+trying Q34=F
+
+### DPLL SUCCESSFUL ###
+Total number of DPLL calls: 133
+Final model: 
+Model = {Q44 : -1, Q43 : 1, Q11 : -1, Q12 : 1, Q13 : -1, Q21 : -1, Q22 : -1, Q24 : 1, Q41 : -1, Q23 : -1, Q32 : -1, Q31 : 1, Q33 : -1, Q42 : -1, Q14 : -1, Q34 : -1, }
+
+Satisfied (true) propositions:
+Q43 Q12 Q24 Q31 
+Total number of DPLL calls: 133
+UCH=False

@@ -1,0 +1,120 @@
+
+trying Q53=T
+
+trying Q52=T
+backtracking
+
+trying Q52=F
+
+trying Q45=T
+
+trying Q55=T
+backtracking
+
+trying Q55=F
+
+trying Q44=T
+backtracking
+
+trying Q44=F
+
+trying Q43=T
+backtracking
+
+trying Q43=F
+
+trying Q11=T
+
+trying Q12=T
+backtracking
+
+trying Q12=F
+
+trying Q41=T
+backtracking
+
+trying Q41=F
+
+trying Q15=T
+backtracking
+
+trying Q15=F
+
+trying Q13=T
+backtracking
+
+trying Q13=F
+
+trying Q42=T
+backtracking
+
+trying Q42=F
+
+trying Q34=T
+backtracking
+
+trying Q34=F
+
+trying Q14=T
+backtracking
+
+trying Q14=F
+
+trying Q25=T
+backtracking
+
+trying Q25=F
+
+trying Q21=T
+backtracking
+
+trying Q21=F
+
+trying Q22=T
+backtracking
+
+trying Q22=F
+
+trying Q51=T
+backtracking
+
+trying Q51=F
+
+trying Q24=T
+
+trying Q35=T
+backtracking
+
+trying Q35=F
+
+trying Q23=T
+backtracking
+
+trying Q23=F
+
+trying Q54=T
+backtracking
+
+trying Q54=F
+
+trying Q32=T
+
+trying Q31=T
+backtracking
+
+trying Q31=F
+
+trying Q33=T
+backtracking
+
+trying Q33=F
+
+### DPLL SUCCESSFUL ###
+Total number of DPLL calls: 46
+Final model: 
+Model = {Q53 : 1, Q52 : -1, Q45 : 1, Q55 : -1, Q44 : -1, Q43 : -1, Q11 : 1, Q12 : -1, Q41 : -1, Q15 : -1, Q13 : -1, Q42 : -1, Q34 : -1, Q14 : -1, Q25 : -1, Q21 : -1, Q22 : -1, Q51 : -1, Q24 : 1, Q35 : -1, Q23 : -1, Q54 : -1, Q32 : 1, Q31 : -1, Q33 : -1, }
+
+Satisfied (true) propositions:
+Q53 Q45 Q11 Q24 Q32 
+Total number of DPLL calls: 46
+UCH=False
