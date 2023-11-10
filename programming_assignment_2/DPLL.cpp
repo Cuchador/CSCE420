@@ -63,6 +63,9 @@ void printCurrentModel(unordered_map<string, int> symbols) {
 }
 
 void finalPrint(unordered_map<string, int> model) {
+    std::cout << "Final model: " << endl;
+    printCurrentModel(model);
+    cout << endl;
     cout << "Satisfied (true) propositions:" << endl;
     for (auto it = model.begin(); it != model.end(); it++) {
         if (it->second == 1) {
@@ -78,21 +81,22 @@ void finalPrint(unordered_map<string, int> model) {
 pair<string, int> findUnitClause(const vector<vector<string>>& clauses, const unordered_map<string, int>& model) {
     for (const vector<string>& clause : clauses) {
         int unassignedCount = 0;
-        string unassignedSymbol = "";
-        bool negate = false;
-        for (const string& symbol : clause) {
-            negate = (symbol[0] == '-');
-            int value = negate ? model.at(symbol.substr(1)) : model.at(symbol);
-            if (value == 0) {
+        string uc_symbol = "";
+        int uc_value = 0;
+        for (const string& literal : clause) {
+            string symbol  = (literal[0] == '-') ? literal.substr(1) : literal;
+            int value = (literal[0] == '-') ? -1 : 1;
+            if (model.at(symbol) == 0) {
                 unassignedCount++;
-                unassignedSymbol = symbol;
-            } else if (value == 1) {
+                uc_symbol = symbol;
+                uc_value = value;
+            } else if (model.at(symbol) == 1) {
                 unassignedCount = -1;  // The clause is already satisfied
                 break;
             }
         }
         if (unassignedCount == 1) {
-            return make_pair(negate ? unassignedSymbol.substr(1) : unassignedSymbol, negate ? -1 : 1);
+            return make_pair(uc_symbol, uc_value);
         }
     }
     return make_pair("", 0);  // No unit clause found
@@ -115,6 +119,7 @@ bool isClauseSatisfied(const vector<string>& clause, const unordered_map<string,
 }
 
 bool checkClauseUnassigned(const vector<string> clause, const unordered_map<string, int> model) {
+    bool unassigned = true;
     for (const string& symbol : clause) {
         if (symbol[0] == '-') {
             if (model.at(symbol.substr(1)) == 0) {
@@ -134,7 +139,6 @@ bool DPLL(vector<vector<string>> clauses, vector<string> symbols, unordered_map<
     if (!ONLY_FINAL_PRINT) printCurrentModel(model);
     // Check if every clause is true in the current model
     bool all_clauses_satisfied = true;
-    
     for (const vector<string>& clause : clauses) {
         if (!isClauseSatisfied(clause, model)) {
             all_clauses_satisfied = false;
@@ -142,25 +146,33 @@ bool DPLL(vector<vector<string>> clauses, vector<string> symbols, unordered_map<
         }
     }
     if (all_clauses_satisfied) {
-        std::cout << endl << "### DPLL SUCCESSFUL ###" << endl;
-        if (!ONLY_FINAL_PRINT) {
-            std::cout << "Total number of DPLL calls: " << num_calls << endl;
-            std::cout << "Final model: " << endl;
-            printCurrentModel(model);
-        }
-        cout << endl;
         finalPrint(model);
         return true;
     } 
+
     // Check if some clause is false in the current model
+     // Check for a clause being false
+    int num_unassigned_symbols = 0;
     for (const vector<string>& clause : clauses) {
-        if (isClauseSatisfied(clause, model) || checkClauseUnassigned(clause, model)) {
-            continue;
+        int num_unassigned_symbols = 0;
+        bool clause_truth = false;
+        for (const string& literal : clause) {
+            string symbol = (literal[0] == '-') ? literal.substr(1) : literal;
+            int value = (literal[0] == '-') ? -1 : 1;
+            if (model.at(symbol) == 0) {
+                num_unassigned_symbols++;
+            } else if (model.at(symbol) == value) {
+                clause_truth = true;
+                break;
+            }
         }
-    
-        if (!ONLY_FINAL_PRINT) { cout << "backtracking" << endl; }
-        return false;
-    }    
+        if (!clause_truth && num_unassigned_symbols == 0) {
+            if (!ONLY_FINAL_PRINT) { cout << "backtracking" << endl; }
+            return false;
+        }
+    }
+
+
     if (UNIT_CLAUSE) {
         // P, value ← FIND-UNIT-CLAUSE(clauses, model)
         // if P is non-null then return DPLL(clauses, symbols – P, model ∪ {P=value})

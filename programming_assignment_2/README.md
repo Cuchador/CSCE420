@@ -3,7 +3,7 @@ STEPS FOR RUNNING
 1. Run 'make' in the command line
 2. You can now run the code via the command line.
     - usage: ./DPLL <filename> <literal> [+UCH] [-FP]
-    - the literal(s) and the +UCH flag are optional
+    - the literal(s) and the +UCH flag are optional, and you can as many literals as necessary, separated by a space
     - I have also included another optional flag, -FP, that can be used if you only want the final model information (only the true symbols). It is set to false by default, as is the unit clause heuristic.
 
 Extra notes:
