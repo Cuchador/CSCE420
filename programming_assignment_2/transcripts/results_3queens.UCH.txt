@@ -1,0 +1,1888 @@
+Model = {Q33 : 0, Q32 : 0, Q23 : 0, Q22 : 0, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : 0, }
+
+trying Q33=T
+Model = {Q33 : 1, Q32 : 0, Q23 : 0, Q22 : 0, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : 0, }
+
+trying Q32=T
+Model = {Q33 : 1, Q32 : 1, Q23 : 0, Q22 : 0, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : 0, }
+backtracking
+
+trying Q32=F
+Model = {Q33 : 1, Q32 : -1, Q23 : 0, Q22 : 0, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : 0, }
+
+forcing Q12=false
+Model = {Q33 : 1, Q32 : -1, Q23 : 0, Q22 : 0, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : -1, Q11 : 0, }
+
+forcing Q11=false
+Model = {Q33 : 1, Q32 : -1, Q23 : 0, Q22 : 0, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : -1, Q11 : -1, }
+
+forcing Q21=false
+Model = {Q33 : 1, Q32 : -1, Q23 : 0, Q22 : 0, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : -1, Q11 : -1, }
+
+forcing Q31=false
+Model = {Q33 : 1, Q32 : -1, Q23 : 0, Q22 : 0, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q23=T
+Model = {Q33 : 1, Q32 : -1, Q23 : 1, Q22 : 0, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q23=F
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : 0, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : -1, Q11 : -1, }
+
+forcing Q31=false
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : 0, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q22=T
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q22=F
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q23=T
+Model = {Q33 : 1, Q32 : -1, Q23 : 1, Q22 : 0, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q23=F
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : 0, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : -1, Q11 : -1, }
+
+forcing Q21=false
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : 0, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : -1, Q11 : -1, }
+
+forcing Q31=false
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : 0, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q22=T
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q22=F
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q22=T
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q22=F
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q23=T
+Model = {Q33 : 1, Q32 : -1, Q23 : 1, Q22 : 0, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : -1, Q11 : 0, }
+backtracking
+
+trying Q23=F
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : 0, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : -1, Q11 : 0, }
+
+forcing Q11=false
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : 0, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : -1, Q11 : -1, }
+
+forcing Q21=false
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : 0, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : -1, Q11 : -1, }
+
+forcing Q31=false
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : 0, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q22=T
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q22=F
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q22=T
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q22=F
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q22=T
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : -1, Q11 : 0, }
+backtracking
+
+trying Q22=F
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : -1, Q11 : 0, }
+backtracking
+
+trying Q23=T
+Model = {Q33 : 1, Q32 : -1, Q23 : 1, Q22 : 0, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : 0, }
+backtracking
+
+trying Q23=F
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : 0, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : 0, }
+
+forcing Q12=false
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : 0, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : -1, Q11 : 0, }
+
+forcing Q11=false
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : 0, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : -1, Q11 : -1, }
+
+forcing Q21=false
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : 0, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : -1, Q11 : -1, }
+
+forcing Q31=false
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : 0, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q22=T
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q22=F
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q22=T
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q22=F
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q22=T
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : -1, Q11 : 0, }
+backtracking
+
+trying Q22=F
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : -1, Q11 : 0, }
+backtracking
+
+trying Q22=T
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : 0, }
+backtracking
+
+trying Q22=F
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : 0, }
+
+forcing Q11=false
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q21=false
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q21=T
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q31=false
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q12=false
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : -1, Q13 : 0, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q13=T
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : -1, Q13 : 1, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q13=F
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : -1, Q13 : -1, Q12 : 0, Q11 : -1, }
+
+forcing Q12=false
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : -1, Q13 : -1, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q12=T
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : -1, Q13 : -1, Q12 : 1, Q11 : -1, }
+backtracking
+
+trying Q12=F
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : -1, Q13 : -1, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q31=T
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : 1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q31=F
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q12=false
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : -1, Q13 : 0, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q13=T
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : -1, Q13 : 1, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q13=F
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : -1, Q13 : -1, Q12 : 0, Q11 : -1, }
+
+forcing Q12=false
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : -1, Q13 : -1, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q12=T
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : -1, Q13 : -1, Q12 : 1, Q11 : -1, }
+backtracking
+
+trying Q12=F
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : -1, Q13 : -1, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q21=F
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q21=T
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : 0, }
+
+forcing Q11=false
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q31=false
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q12=false
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : -1, Q13 : 0, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q13=T
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : -1, Q13 : 1, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q13=F
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : -1, Q13 : -1, Q12 : 0, Q11 : -1, }
+
+forcing Q12=false
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : -1, Q13 : -1, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q12=T
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : -1, Q13 : -1, Q12 : 1, Q11 : -1, }
+backtracking
+
+trying Q12=F
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : -1, Q13 : -1, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q31=T
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : 1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q31=F
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q12=false
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : -1, Q13 : 0, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q13=T
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : -1, Q13 : 1, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q13=F
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : -1, Q13 : -1, Q12 : 0, Q11 : -1, }
+
+forcing Q12=false
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : -1, Q13 : -1, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q12=T
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : -1, Q13 : -1, Q12 : 1, Q11 : -1, }
+backtracking
+
+trying Q12=F
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : -1, Q13 : -1, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q31=T
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : 1, Q13 : 0, Q12 : 0, Q11 : 0, }
+backtracking
+
+trying Q31=F
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : 0, }
+
+forcing Q11=false
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q12=false
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : -1, Q13 : 0, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q13=T
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : -1, Q13 : 1, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q13=F
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : -1, Q13 : -1, Q12 : 0, Q11 : -1, }
+
+forcing Q12=false
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : -1, Q13 : -1, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q12=T
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : -1, Q13 : -1, Q12 : 1, Q11 : -1, }
+backtracking
+
+trying Q12=F
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : -1, Q13 : -1, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q13=T
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : -1, Q13 : 1, Q12 : 0, Q11 : 0, }
+backtracking
+
+trying Q13=F
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : -1, Q13 : -1, Q12 : 0, Q11 : 0, }
+
+forcing Q11=false
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : -1, Q13 : -1, Q12 : 0, Q11 : -1, }
+
+forcing Q12=false
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : -1, Q13 : -1, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q12=T
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : -1, Q13 : -1, Q12 : 1, Q11 : -1, }
+backtracking
+
+trying Q12=F
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : -1, Q13 : -1, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q12=T
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : -1, Q13 : -1, Q12 : 1, Q11 : 0, }
+backtracking
+
+trying Q12=F
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : -1, Q13 : -1, Q12 : -1, Q11 : 0, }
+backtracking
+
+trying Q21=F
+Model = {Q33 : 1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : 0, }
+backtracking
+
+trying Q33=F
+Model = {Q33 : -1, Q32 : 0, Q23 : 0, Q22 : 0, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : 0, }
+
+forcing Q11=false
+Model = {Q33 : -1, Q32 : 0, Q23 : 0, Q22 : 0, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q21=false
+Model = {Q33 : -1, Q32 : 0, Q23 : 0, Q22 : 0, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q31=false
+Model = {Q33 : -1, Q32 : 0, Q23 : 0, Q22 : 0, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q32=T
+Model = {Q33 : -1, Q32 : 1, Q23 : 0, Q22 : 0, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q31=false
+Model = {Q33 : -1, Q32 : 1, Q23 : 0, Q22 : 0, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q23=T
+Model = {Q33 : -1, Q32 : 1, Q23 : 1, Q22 : 0, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q23=F
+Model = {Q33 : -1, Q32 : 1, Q23 : -1, Q22 : 0, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q31=false
+Model = {Q33 : -1, Q32 : 1, Q23 : -1, Q22 : 0, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q22=T
+Model = {Q33 : -1, Q32 : 1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q22=F
+Model = {Q33 : -1, Q32 : 1, Q23 : -1, Q22 : -1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q32=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 0, Q22 : 0, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q31=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 0, Q22 : 0, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q23=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : 0, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q31=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : 0, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q22=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : 1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q22=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q31=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q31=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q12=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : 0, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q13=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : 1, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q13=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : 0, Q11 : -1, }
+
+forcing Q12=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q12=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : 1, Q11 : -1, }
+backtracking
+
+trying Q12=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q31=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q23=F
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 0, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q31=false
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 0, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q22=T
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q31=false
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q31=T
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : 1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q31=F
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q22=F
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q32=T
+Model = {Q33 : -1, Q32 : 1, Q23 : 0, Q22 : 0, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q21=false
+Model = {Q33 : -1, Q32 : 1, Q23 : 0, Q22 : 0, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q31=false
+Model = {Q33 : -1, Q32 : 1, Q23 : 0, Q22 : 0, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q23=T
+Model = {Q33 : -1, Q32 : 1, Q23 : 1, Q22 : 0, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q23=F
+Model = {Q33 : -1, Q32 : 1, Q23 : -1, Q22 : 0, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q31=false
+Model = {Q33 : -1, Q32 : 1, Q23 : -1, Q22 : 0, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q22=T
+Model = {Q33 : -1, Q32 : 1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q22=F
+Model = {Q33 : -1, Q32 : 1, Q23 : -1, Q22 : -1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q23=T
+Model = {Q33 : -1, Q32 : 1, Q23 : 1, Q22 : 0, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q23=F
+Model = {Q33 : -1, Q32 : 1, Q23 : -1, Q22 : 0, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q21=false
+Model = {Q33 : -1, Q32 : 1, Q23 : -1, Q22 : 0, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q31=false
+Model = {Q33 : -1, Q32 : 1, Q23 : -1, Q22 : 0, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q22=T
+Model = {Q33 : -1, Q32 : 1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q22=F
+Model = {Q33 : -1, Q32 : 1, Q23 : -1, Q22 : -1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q22=T
+Model = {Q33 : -1, Q32 : 1, Q23 : -1, Q22 : 1, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q22=F
+Model = {Q33 : -1, Q32 : 1, Q23 : -1, Q22 : -1, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q21=false
+Model = {Q33 : -1, Q32 : 1, Q23 : -1, Q22 : -1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q21=T
+Model = {Q33 : -1, Q32 : 1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q21=F
+Model = {Q33 : -1, Q32 : 1, Q23 : -1, Q22 : -1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q32=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 0, Q22 : 0, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q21=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 0, Q22 : 0, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q31=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 0, Q22 : 0, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q23=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : 0, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q31=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : 0, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q22=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : 1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q22=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q31=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q31=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q12=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : 0, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q13=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : 1, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q13=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : 0, Q11 : -1, }
+
+forcing Q12=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q12=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : 1, Q11 : -1, }
+backtracking
+
+trying Q12=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q31=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q23=F
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 0, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q31=false
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 0, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q22=T
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q31=false
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q31=T
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : 1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q31=F
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q22=F
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q23=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : 0, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q21=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : 0, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q31=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : 0, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q22=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : 1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q22=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q31=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q31=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q12=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : 0, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q13=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : 1, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q13=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : 0, Q11 : -1, }
+
+forcing Q12=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q12=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : 1, Q11 : -1, }
+backtracking
+
+trying Q12=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q31=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q22=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : 1, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q22=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q21=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q31=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q31=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q12=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : 0, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q13=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : 1, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q13=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : 0, Q11 : -1, }
+
+forcing Q12=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q12=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : 1, Q11 : -1, }
+backtracking
+
+trying Q12=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q31=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q21=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : 1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q21=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q31=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q31=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q12=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : 0, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q13=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : 1, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q13=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : 0, Q11 : -1, }
+
+forcing Q12=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q12=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : 1, Q11 : -1, }
+backtracking
+
+trying Q12=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q31=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q23=F
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 0, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q21=false
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 0, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q31=false
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 0, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q22=T
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q31=false
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q31=T
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : 1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q31=F
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q22=F
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q22=T
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q21=false
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q31=false
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q31=T
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : 1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q31=F
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q21=T
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : 1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q21=F
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q31=false
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q31=T
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : 1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q31=F
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q22=F
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q21=false
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q21=T
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q31=false
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q31=T
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : 1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q31=F
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q21=F
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q32=T
+Model = {Q33 : -1, Q32 : 1, Q23 : 0, Q22 : 0, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : 0, }
+
+forcing Q11=false
+Model = {Q33 : -1, Q32 : 1, Q23 : 0, Q22 : 0, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q21=false
+Model = {Q33 : -1, Q32 : 1, Q23 : 0, Q22 : 0, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q31=false
+Model = {Q33 : -1, Q32 : 1, Q23 : 0, Q22 : 0, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q23=T
+Model = {Q33 : -1, Q32 : 1, Q23 : 1, Q22 : 0, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q23=F
+Model = {Q33 : -1, Q32 : 1, Q23 : -1, Q22 : 0, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q31=false
+Model = {Q33 : -1, Q32 : 1, Q23 : -1, Q22 : 0, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q22=T
+Model = {Q33 : -1, Q32 : 1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q22=F
+Model = {Q33 : -1, Q32 : 1, Q23 : -1, Q22 : -1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q23=T
+Model = {Q33 : -1, Q32 : 1, Q23 : 1, Q22 : 0, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q23=F
+Model = {Q33 : -1, Q32 : 1, Q23 : -1, Q22 : 0, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q21=false
+Model = {Q33 : -1, Q32 : 1, Q23 : -1, Q22 : 0, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q31=false
+Model = {Q33 : -1, Q32 : 1, Q23 : -1, Q22 : 0, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q22=T
+Model = {Q33 : -1, Q32 : 1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q22=F
+Model = {Q33 : -1, Q32 : 1, Q23 : -1, Q22 : -1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q22=T
+Model = {Q33 : -1, Q32 : 1, Q23 : -1, Q22 : 1, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q22=F
+Model = {Q33 : -1, Q32 : 1, Q23 : -1, Q22 : -1, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q21=false
+Model = {Q33 : -1, Q32 : 1, Q23 : -1, Q22 : -1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q21=T
+Model = {Q33 : -1, Q32 : 1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q21=F
+Model = {Q33 : -1, Q32 : 1, Q23 : -1, Q22 : -1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q23=T
+Model = {Q33 : -1, Q32 : 1, Q23 : 1, Q22 : 0, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : 0, }
+backtracking
+
+trying Q23=F
+Model = {Q33 : -1, Q32 : 1, Q23 : -1, Q22 : 0, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : 0, }
+
+forcing Q11=false
+Model = {Q33 : -1, Q32 : 1, Q23 : -1, Q22 : 0, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q21=false
+Model = {Q33 : -1, Q32 : 1, Q23 : -1, Q22 : 0, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q31=false
+Model = {Q33 : -1, Q32 : 1, Q23 : -1, Q22 : 0, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q22=T
+Model = {Q33 : -1, Q32 : 1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q22=F
+Model = {Q33 : -1, Q32 : 1, Q23 : -1, Q22 : -1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q22=T
+Model = {Q33 : -1, Q32 : 1, Q23 : -1, Q22 : 1, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q22=F
+Model = {Q33 : -1, Q32 : 1, Q23 : -1, Q22 : -1, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q21=false
+Model = {Q33 : -1, Q32 : 1, Q23 : -1, Q22 : -1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q21=T
+Model = {Q33 : -1, Q32 : 1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q21=F
+Model = {Q33 : -1, Q32 : 1, Q23 : -1, Q22 : -1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q22=T
+Model = {Q33 : -1, Q32 : 1, Q23 : -1, Q22 : 1, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : 0, }
+backtracking
+
+trying Q22=F
+Model = {Q33 : -1, Q32 : 1, Q23 : -1, Q22 : -1, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : 0, }
+
+forcing Q11=false
+Model = {Q33 : -1, Q32 : 1, Q23 : -1, Q22 : -1, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q21=false
+Model = {Q33 : -1, Q32 : 1, Q23 : -1, Q22 : -1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q21=T
+Model = {Q33 : -1, Q32 : 1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q21=F
+Model = {Q33 : -1, Q32 : 1, Q23 : -1, Q22 : -1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q21=T
+Model = {Q33 : -1, Q32 : 1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : 0, }
+backtracking
+
+trying Q21=F
+Model = {Q33 : -1, Q32 : 1, Q23 : -1, Q22 : -1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : 0, }
+backtracking
+
+trying Q32=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 0, Q22 : 0, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : 0, }
+
+forcing Q11=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 0, Q22 : 0, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q21=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 0, Q22 : 0, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q31=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 0, Q22 : 0, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q23=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : 0, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q31=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : 0, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q22=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : 1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q22=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q31=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q31=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q12=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : 0, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q13=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : 1, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q13=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : 0, Q11 : -1, }
+
+forcing Q12=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q12=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : 1, Q11 : -1, }
+backtracking
+
+trying Q12=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q31=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q23=F
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 0, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q31=false
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 0, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q22=T
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q31=false
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q31=T
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : 1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q31=F
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q22=F
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q23=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : 0, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q21=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : 0, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q31=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : 0, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q22=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : 1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q22=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q31=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q31=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q12=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : 0, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q13=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : 1, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q13=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : 0, Q11 : -1, }
+
+forcing Q12=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q12=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : 1, Q11 : -1, }
+backtracking
+
+trying Q12=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q31=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q22=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : 1, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q22=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q21=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q31=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q31=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q12=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : 0, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q13=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : 1, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q13=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : 0, Q11 : -1, }
+
+forcing Q12=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q12=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : 1, Q11 : -1, }
+backtracking
+
+trying Q12=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q31=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q21=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : 1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q21=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q31=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q31=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q12=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : 0, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q13=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : 1, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q13=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : 0, Q11 : -1, }
+
+forcing Q12=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q12=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : 1, Q11 : -1, }
+backtracking
+
+trying Q12=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q31=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q23=F
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 0, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q21=false
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 0, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q31=false
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 0, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q22=T
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q31=false
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q31=T
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : 1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q31=F
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q22=F
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q22=T
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q21=false
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q31=false
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q31=T
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : 1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q31=F
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q21=T
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : 1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q21=F
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q31=false
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q31=T
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : 1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q31=F
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q22=F
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q21=false
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q21=T
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q31=false
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q31=T
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : 1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q31=F
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q21=F
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q23=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : 0, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : 0, }
+
+forcing Q11=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : 0, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q21=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : 0, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q31=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : 0, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q22=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : 1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q22=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q31=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q31=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q12=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : 0, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q13=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : 1, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q13=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : 0, Q11 : -1, }
+
+forcing Q12=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q12=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : 1, Q11 : -1, }
+backtracking
+
+trying Q12=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q31=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q22=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : 1, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q22=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q21=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q31=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q31=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q12=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : 0, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q13=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : 1, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q13=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : 0, Q11 : -1, }
+
+forcing Q12=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q12=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : 1, Q11 : -1, }
+backtracking
+
+trying Q12=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q31=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q21=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : 1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q21=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q31=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q31=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q12=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : 0, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q13=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : 1, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q13=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : 0, Q11 : -1, }
+
+forcing Q12=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q12=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : 1, Q11 : -1, }
+backtracking
+
+trying Q12=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q31=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q22=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : 1, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : 0, }
+backtracking
+
+trying Q22=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : 0, }
+
+forcing Q11=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q21=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q31=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q31=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q12=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : 0, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q13=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : 1, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q13=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : 0, Q11 : -1, }
+
+forcing Q12=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q12=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : 1, Q11 : -1, }
+backtracking
+
+trying Q12=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q31=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q21=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : 1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q21=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q31=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q31=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q12=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : 0, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q13=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : 1, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q13=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : 0, Q11 : -1, }
+
+forcing Q12=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q12=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : 1, Q11 : -1, }
+backtracking
+
+trying Q12=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q31=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q21=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : 1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : 0, }
+backtracking
+
+trying Q21=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : 0, }
+
+forcing Q11=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q31=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q31=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q12=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : 0, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q13=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : 1, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q13=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : 0, Q11 : -1, }
+
+forcing Q12=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q12=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : 1, Q11 : -1, }
+backtracking
+
+trying Q12=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q31=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q31=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : 0, Q12 : 0, Q11 : 0, }
+
+forcing Q11=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q12=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : 0, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q13=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : 1, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q13=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : 0, Q11 : -1, }
+
+forcing Q12=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q12=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : 1, Q11 : -1, }
+backtracking
+
+trying Q12=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q13=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : 1, Q12 : 0, Q11 : 0, }
+backtracking
+
+trying Q13=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : 0, Q11 : 0, }
+
+forcing Q11=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : 0, Q11 : -1, }
+
+forcing Q12=false
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q12=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : 1, Q11 : -1, }
+backtracking
+
+trying Q12=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : -1, Q11 : -1, }
+backtracking
+
+trying Q12=T
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : 1, Q11 : 0, }
+backtracking
+
+trying Q12=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : 1, Q13 : -1, Q12 : -1, Q11 : 0, }
+backtracking
+
+trying Q31=F
+Model = {Q33 : -1, Q32 : -1, Q23 : 1, Q22 : -1, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : 0, }
+backtracking
+
+trying Q23=F
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 0, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : 0, }
+
+forcing Q11=false
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 0, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q21=false
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 0, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q31=false
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 0, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q22=T
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q31=false
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q31=T
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : 1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q31=F
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q22=F
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q22=T
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q21=false
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q31=false
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q31=T
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : 1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q31=F
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q21=T
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : 1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q21=F
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q31=false
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q31=T
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : 1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q31=F
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q22=F
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q21=false
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q21=T
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q31=false
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q31=T
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : 1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q31=F
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q21=F
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q22=T
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : 0, }
+
+forcing Q11=false
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q21=false
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q31=false
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q31=T
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : 1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q31=F
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q21=T
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : 1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q21=F
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q31=false
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q31=T
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : 1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q31=F
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q21=T
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : 1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : 0, }
+backtracking
+
+trying Q21=F
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : 0, }
+
+forcing Q11=false
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q31=false
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q31=T
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : 1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q31=F
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q31=T
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : 1, Q13 : 0, Q12 : 0, Q11 : 0, }
+backtracking
+
+trying Q31=F
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : 1, Q21 : -1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : 0, }
+backtracking
+
+trying Q22=F
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : 0, }
+
+forcing Q11=false
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 0, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q21=false
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q21=T
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q31=false
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q31=T
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : 1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q31=F
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q21=F
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q21=T
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : 0, }
+
+forcing Q11=false
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : -1, }
+
+forcing Q31=false
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q31=T
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : 1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q31=F
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : -1, }
+backtracking
+
+trying Q31=T
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : 1, Q13 : 0, Q12 : 0, Q11 : 0, }
+backtracking
+
+trying Q31=F
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : 1, Q31 : -1, Q13 : 0, Q12 : 0, Q11 : 0, }
+backtracking
+
+trying Q21=F
+Model = {Q33 : -1, Q32 : -1, Q23 : -1, Q22 : -1, Q21 : -1, Q31 : 0, Q13 : 0, Q12 : 0, Q11 : 0, }
+backtracking
+No solution possible (problem is unsatisfiable)
+Total number of DPLL calls: 515

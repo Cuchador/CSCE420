@@ -5,11 +5,12 @@
 #include <fstream>
 #include <sstream>
 #include <cstring>
+#include <algorithm>
 
 const char* DIMACS_FLAG = " -DIMACS";
 const char* UCH_FLAG = "+UCH";
+const char* FINAL_PRINT_FLAG = "-FP";
 bool UNIT_CLAUSE = false;
-bool PURE_SYMBOL = false;
 int num_calls = 0;
 bool ONLY_FINAL_PRINT = false;
 
@@ -74,37 +75,6 @@ void finalPrint(unordered_map<string, int> model) {
     cout << uch << endl;
 }
 
-// Function to check if a clause is satisfied in the current model
-bool isClauseSatisfied(const vector<string>& clause, const unordered_map<string, int>& model) {
-    for (const string& symbol : clause) {
-        if (symbol[0] == '-') {
-            if (model.at(symbol.substr(1)) == -1) {
-                return true;  // The clause is true in the current model
-            }
-        } else {
-            if (model.at(symbol) == 1) {
-                return true;  // The clause is true in the current model
-            }
-        }
-    }
-    return false;  // The clause is not satisfied in the current model
-}
-
-bool checkClauseUnassigned(const vector<string>& clause, const unordered_map<string, int>& model) {
-    for (const string& symbol : clause) {
-        if (symbol[0] == '-') {
-            if (model.at(symbol.substr(1)) == 0) {
-                return true;  // The clause is true in the current model
-            }
-        } else {
-            if (model.at(symbol) == 0) {
-                return true;  // The clause is true in the current model
-            }
-        }
-    }
-    return false;
-}
-
 pair<string, int> findUnitClause(const vector<vector<string>>& clauses, const unordered_map<string, int>& model) {
     for (const vector<string>& clause : clauses) {
         int unassignedCount = 0;
@@ -128,19 +98,43 @@ pair<string, int> findUnitClause(const vector<vector<string>>& clauses, const un
     return make_pair("", 0);  // No unit clause found
 }
 
+// Function to check if a clause is satisfied in the current model
+bool isClauseSatisfied(const vector<string>& clause, const unordered_map<string, int>& model) {
+    for (const string& symbol : clause) {
+        if (symbol[0] == '-') {
+            if (model.at(symbol.substr(1)) == -1) {
+                return true;  // The clause is true in the current model
+            }
+        } else {
+            if (model.at(symbol) == 1) {
+                return true;  // The clause is true in the current model
+            }
+        }
+    }
+    return false;  // The clause is not satisfied in the current model
+}
 
+bool checkClauseUnassigned(const vector<string> clause, const unordered_map<string, int> model) {
+    for (const string& symbol : clause) {
+        if (symbol[0] == '-') {
+            if (model.at(symbol.substr(1)) == 0) {
+                return true;  // The clause is true in the current model
+            }
+        } else {
+            if (model.at(symbol) == 0) {
+                return true;  // The clause is true in the current model
+            }
+        }
+    }
+    return false;
+}
 
 bool DPLL(vector<vector<string>> clauses, vector<string> symbols, unordered_map<string, int> model) {
     num_calls++;
-    printCurrentModel(model);
+    if (!ONLY_FINAL_PRINT) printCurrentModel(model);
     // Check if every clause is true in the current model
     bool all_clauses_satisfied = true;
-    bool unassigned_variables = false;
-    for (const string& symbol : symbols) {
-        if (model[symbol] == 0) {
-            unassigned_variables = true;
-        }
-    }
+    
     for (const vector<string>& clause : clauses) {
         if (!isClauseSatisfied(clause, model)) {
             all_clauses_satisfied = false;
@@ -160,24 +154,18 @@ bool DPLL(vector<vector<string>> clauses, vector<string> symbols, unordered_map<
     } 
     // Check if some clause is false in the current model
     for (const vector<string>& clause : clauses) {
-        if (isClauseSatisfied(clause, model)) {
+        if (isClauseSatisfied(clause, model) || checkClauseUnassigned(clause, model)) {
             continue;
-        } else {
-            if (checkClauseUnassigned(clause, model)) {
-                continue;
-            }
         }
+    
         if (!ONLY_FINAL_PRINT) { cout << "backtracking" << endl; }
         return false;
     }    
-    
     if (UNIT_CLAUSE) {
         // P, value ← FIND-UNIT-CLAUSE(clauses, model)
         // if P is non-null then return DPLL(clauses, symbols – P, model ∪ {P=value})
         pair<string, int> unit_clause = findUnitClause(clauses, model);
         if (!unit_clause.first.empty()) {
-            cout << unit_clause.first << endl;
-            return true;
             string assignment = (unit_clause.second == 1) ? "true" : "false";
             if (!ONLY_FINAL_PRINT) { cout << endl <<"forcing " << unit_clause.first << "=" <<  assignment << endl; }
 
@@ -188,19 +176,17 @@ bool DPLL(vector<vector<string>> clauses, vector<string> symbols, unordered_map<
                 }
             }
             model[unit_clause.first] = unit_clause.second;
-            return DPLL(clauses, rest, model);
+            if(DPLL(clauses, rest, model)) {
+                return true;
+            } else {
+                model[unit_clause.first] = 0;
+            }
+            
         }
-
-        //if (symbols.empty()) {
-        //    return false;  // All symbols assigned, but not all clauses satisfied
-        //}
     }
-    // P ← FIRST(symbols); rest ← REST(symbols)
+    
     string P = symbols[0];
     vector<string> rest(symbols.begin()+1, symbols.end());
-    
-    // return DPLL(clauses, rest, model ∪ {P=true}) or
-    // DPLL(clauses, rest, model ∪ {P=false}))
     model[P] = 1;
     if (!ONLY_FINAL_PRINT) {
         std::cout << endl;
@@ -219,6 +205,8 @@ bool DPLL(vector<vector<string>> clauses, vector<string> symbols, unordered_map<
 }
 
 
+
+
 int main(int argc, char* argv[]) {
     // Handle all command line input
     if (argc < 2) {
@@ -233,6 +221,8 @@ int main(int argc, char* argv[]) {
     while (arg_num < argc) {
         if (strcmp(argv[arg_num], UCH_FLAG) == 0) {
             UNIT_CLAUSE = true;
+        } else if (strcmp(argv[arg_num], FINAL_PRINT_FLAG) == 0) {
+            ONLY_FINAL_PRINT = true;
         } else {
             facts.push_back(argv[arg_num]);
         }
@@ -247,7 +237,7 @@ int main(int argc, char* argv[]) {
         return 0;
     }
     
-    // Get a vector the unique symbols, excluding known facts
+    // Get a vector the unique symbols
     vector<string> symbols;
     for (auto symbol : model) {
         symbols.push_back(symbol.first);
@@ -262,7 +252,7 @@ int main(int argc, char* argv[]) {
         }
     }
     removeFactsFromSymbols(symbols, facts);
-    
+
     // Perform DPLL
     if (!DPLL(kb, symbols, model)) {
         std::cout << "No solution possible (problem is unsatisfiable)" << endl;
