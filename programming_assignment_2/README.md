@@ -11,3 +11,6 @@ Extra notes:
     - python3 convCNF.py <filename.kb> -DIMACS mapcolor.cnf
 2. The program only parses -DIMACS format.
 3. For the n-queens problem, I wrote a python script to generate the knowledge base. It works up to 6 queens, after which I cannot verify it's correctness. 
+4. I also implemented the problem in C++, but it did not work well and I got too anxious the day after the deadline and redid the whole problem in python. Anyways, if you want to try that out (even though it performs much worse), here are the steps:
+    - Run 'make' on the command line
+    - usage: ./DPLL <filename> <literal>* [+UCH]
