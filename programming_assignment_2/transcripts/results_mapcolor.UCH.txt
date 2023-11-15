@@ -1,0 +1,53 @@
+{'WAR': 0, 'WAG': 0, 'WAB': 0, 'NTR': 0, 'NTG': 0, 'NTB': 0, 'QR': 0, 'QG': 0, 'QB': 0, 'NSWR': 0, 'NSWG': 0, 'NSWB': 0, 'VR': 0, 'VG': 0, 'VB': 0, 'SAR': 0, 'SAG': 0, 'SAB': 0, 'TR': 0, 'TG': 0, 'TB': 0}
+
+trying WAR = T
+{'WAR': 1, 'WAG': 0, 'WAB': 0, 'NTR': 0, 'NTG': 0, 'NTB': 0, 'QR': 0, 'QG': 0, 'QB': 0, 'NSWR': 0, 'NSWG': 0, 'NSWB': 0, 'VR': 0, 'VG': 0, 'VB': 0, 'SAR': 0, 'SAG': 0, 'SAB': 0, 'TR': 0, 'TG': 0, 'TB': 0}
+forcing WAG = -1
+{'WAR': 1, 'WAG': -1, 'WAB': 0, 'NTR': 0, 'NTG': 0, 'NTB': 0, 'QR': 0, 'QG': 0, 'QB': 0, 'NSWR': 0, 'NSWG': 0, 'NSWB': 0, 'VR': 0, 'VG': 0, 'VB': 0, 'SAR': 0, 'SAG': 0, 'SAB': 0, 'TR': 0, 'TG': 0, 'TB': 0}
+forcing WAB = -1
+{'WAR': 1, 'WAG': -1, 'WAB': -1, 'NTR': 0, 'NTG': 0, 'NTB': 0, 'QR': 0, 'QG': 0, 'QB': 0, 'NSWR': 0, 'NSWG': 0, 'NSWB': 0, 'VR': 0, 'VG': 0, 'VB': 0, 'SAR': 0, 'SAG': 0, 'SAB': 0, 'TR': 0, 'TG': 0, 'TB': 0}
+forcing SAR = -1
+{'WAR': 1, 'WAG': -1, 'WAB': -1, 'NTR': 0, 'NTG': 0, 'NTB': 0, 'QR': 0, 'QG': 0, 'QB': 0, 'NSWR': 0, 'NSWG': 0, 'NSWB': 0, 'VR': 0, 'VG': 0, 'VB': 0, 'SAR': -1, 'SAG': 0, 'SAB': 0, 'TR': 0, 'TG': 0, 'TB': 0}
+forcing NTR = -1
+{'WAR': 1, 'WAG': -1, 'WAB': -1, 'NTR': -1, 'NTG': 0, 'NTB': 0, 'QR': 0, 'QG': 0, 'QB': 0, 'NSWR': 0, 'NSWG': 0, 'NSWB': 0, 'VR': 0, 'VG': 0, 'VB': 0, 'SAR': -1, 'SAG': 0, 'SAB': 0, 'TR': 0, 'TG': 0, 'TB': 0}
+
+trying NTG = T
+{'WAR': 1, 'WAG': -1, 'WAB': -1, 'NTR': -1, 'NTG': 1, 'NTB': 0, 'QR': 0, 'QG': 0, 'QB': 0, 'NSWR': 0, 'NSWG': 0, 'NSWB': 0, 'VR': 0, 'VG': 0, 'VB': 0, 'SAR': -1, 'SAG': 0, 'SAB': 0, 'TR': 0, 'TG': 0, 'TB': 0}
+forcing NTB = -1
+{'WAR': 1, 'WAG': -1, 'WAB': -1, 'NTR': -1, 'NTG': 1, 'NTB': -1, 'QR': 0, 'QG': 0, 'QB': 0, 'NSWR': 0, 'NSWG': 0, 'NSWB': 0, 'VR': 0, 'VG': 0, 'VB': 0, 'SAR': -1, 'SAG': 0, 'SAB': 0, 'TR': 0, 'TG': 0, 'TB': 0}
+forcing SAG = -1
+{'WAR': 1, 'WAG': -1, 'WAB': -1, 'NTR': -1, 'NTG': 1, 'NTB': -1, 'QR': 0, 'QG': 0, 'QB': 0, 'NSWR': 0, 'NSWG': 0, 'NSWB': 0, 'VR': 0, 'VG': 0, 'VB': 0, 'SAR': -1, 'SAG': -1, 'SAB': 0, 'TR': 0, 'TG': 0, 'TB': 0}
+forcing SAB = 1
+{'WAR': 1, 'WAG': -1, 'WAB': -1, 'NTR': -1, 'NTG': 1, 'NTB': -1, 'QR': 0, 'QG': 0, 'QB': 0, 'NSWR': 0, 'NSWG': 0, 'NSWB': 0, 'VR': 0, 'VG': 0, 'VB': 0, 'SAR': -1, 'SAG': -1, 'SAB': 1, 'TR': 0, 'TG': 0, 'TB': 0}
+forcing QB = -1
+{'WAR': 1, 'WAG': -1, 'WAB': -1, 'NTR': -1, 'NTG': 1, 'NTB': -1, 'QR': 0, 'QG': 0, 'QB': -1, 'NSWR': 0, 'NSWG': 0, 'NSWB': 0, 'VR': 0, 'VG': 0, 'VB': 0, 'SAR': -1, 'SAG': -1, 'SAB': 1, 'TR': 0, 'TG': 0, 'TB': 0}
+forcing NSWB = -1
+{'WAR': 1, 'WAG': -1, 'WAB': -1, 'NTR': -1, 'NTG': 1, 'NTB': -1, 'QR': 0, 'QG': 0, 'QB': -1, 'NSWR': 0, 'NSWG': 0, 'NSWB': -1, 'VR': 0, 'VG': 0, 'VB': 0, 'SAR': -1, 'SAG': -1, 'SAB': 1, 'TR': 0, 'TG': 0, 'TB': 0}
+forcing VB = -1
+{'WAR': 1, 'WAG': -1, 'WAB': -1, 'NTR': -1, 'NTG': 1, 'NTB': -1, 'QR': 0, 'QG': 0, 'QB': -1, 'NSWR': 0, 'NSWG': 0, 'NSWB': -1, 'VR': 0, 'VG': 0, 'VB': -1, 'SAR': -1, 'SAG': -1, 'SAB': 1, 'TR': 0, 'TG': 0, 'TB': 0}
+forcing QG = -1
+{'WAR': 1, 'WAG': -1, 'WAB': -1, 'NTR': -1, 'NTG': 1, 'NTB': -1, 'QR': 0, 'QG': -1, 'QB': -1, 'NSWR': 0, 'NSWG': 0, 'NSWB': -1, 'VR': 0, 'VG': 0, 'VB': -1, 'SAR': -1, 'SAG': -1, 'SAB': 1, 'TR': 0, 'TG': 0, 'TB': 0}
+forcing QR = 1
+{'WAR': 1, 'WAG': -1, 'WAB': -1, 'NTR': -1, 'NTG': 1, 'NTB': -1, 'QR': 1, 'QG': -1, 'QB': -1, 'NSWR': 0, 'NSWG': 0, 'NSWB': -1, 'VR': 0, 'VG': 0, 'VB': -1, 'SAR': -1, 'SAG': -1, 'SAB': 1, 'TR': 0, 'TG': 0, 'TB': 0}
+forcing NSWR = -1
+{'WAR': 1, 'WAG': -1, 'WAB': -1, 'NTR': -1, 'NTG': 1, 'NTB': -1, 'QR': 1, 'QG': -1, 'QB': -1, 'NSWR': -1, 'NSWG': 0, 'NSWB': -1, 'VR': 0, 'VG': 0, 'VB': -1, 'SAR': -1, 'SAG': -1, 'SAB': 1, 'TR': 0, 'TG': 0, 'TB': 0}
+forcing NSWG = 1
+{'WAR': 1, 'WAG': -1, 'WAB': -1, 'NTR': -1, 'NTG': 1, 'NTB': -1, 'QR': 1, 'QG': -1, 'QB': -1, 'NSWR': -1, 'NSWG': 1, 'NSWB': -1, 'VR': 0, 'VG': 0, 'VB': -1, 'SAR': -1, 'SAG': -1, 'SAB': 1, 'TR': 0, 'TG': 0, 'TB': 0}
+forcing VG = -1
+{'WAR': 1, 'WAG': -1, 'WAB': -1, 'NTR': -1, 'NTG': 1, 'NTB': -1, 'QR': 1, 'QG': -1, 'QB': -1, 'NSWR': -1, 'NSWG': 1, 'NSWB': -1, 'VR': 0, 'VG': -1, 'VB': -1, 'SAR': -1, 'SAG': -1, 'SAB': 1, 'TR': 0, 'TG': 0, 'TB': 0}
+forcing VR = 1
+{'WAR': 1, 'WAG': -1, 'WAB': -1, 'NTR': -1, 'NTG': 1, 'NTB': -1, 'QR': 1, 'QG': -1, 'QB': -1, 'NSWR': -1, 'NSWG': 1, 'NSWB': -1, 'VR': 1, 'VG': -1, 'VB': -1, 'SAR': -1, 'SAG': -1, 'SAB': 1, 'TR': 0, 'TG': 0, 'TB': 0}
+
+trying TR = T
+{'WAR': 1, 'WAG': -1, 'WAB': -1, 'NTR': -1, 'NTG': 1, 'NTB': -1, 'QR': 1, 'QG': -1, 'QB': -1, 'NSWR': -1, 'NSWG': 1, 'NSWB': -1, 'VR': 1, 'VG': -1, 'VB': -1, 'SAR': -1, 'SAG': -1, 'SAB': 1, 'TR': 1, 'TG': 0, 'TB': 0}
+forcing TG = -1
+{'WAR': 1, 'WAG': -1, 'WAB': -1, 'NTR': -1, 'NTG': 1, 'NTB': -1, 'QR': 1, 'QG': -1, 'QB': -1, 'NSWR': -1, 'NSWG': 1, 'NSWB': -1, 'VR': 1, 'VG': -1, 'VB': -1, 'SAR': -1, 'SAG': -1, 'SAB': 1, 'TR': 1, 'TG': -1, 'TB': 0}
+forcing TB = -1
+{'WAR': 1, 'WAG': -1, 'WAB': -1, 'NTR': -1, 'NTG': 1, 'NTB': -1, 'QR': 1, 'QG': -1, 'QB': -1, 'NSWR': -1, 'NSWG': 1, 'NSWB': -1, 'VR': 1, 'VG': -1, 'VB': -1, 'SAR': -1, 'SAG': -1, 'SAB': 1, 'TR': 1, 'TG': -1, 'TB': -1}
+
+{'WAR': 1, 'WAG': -1, 'WAB': -1, 'NTR': -1, 'NTG': 1, 'NTB': -1, 'QR': 1, 'QG': -1, 'QB': -1, 'NSWR': -1, 'NSWG': 1, 'NSWB': -1, 'VR': 1, 'VG': -1, 'VB': -1, 'SAR': -1, 'SAG': -1, 'SAB': 1, 'TR': 1, 'TG': -1, 'TB': -1}
+
+### DPLL SUCCESSFUL ###
+Number of DPLL Calls: 22
+Satisfied (true) propositions:
+WAR NTG QR NSWG VR SAB TR 
