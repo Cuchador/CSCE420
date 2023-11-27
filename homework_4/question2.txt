@@ -1,0 +1,54 @@
+% Define additional rules to identify the occupation, address, and salary of individuals.
+
+surgeon(X) :- occupation(X, oral_surgeon).
+surgeon(X) :- occupation(X, plastic_surgeon).
+surgeon(X) :- occupation(X, heart_surgeon).
+surgeon(X) :- occupation(X, brain_surgeon).
+
+lawyer(X) :- occupation(X, patent_lawyer).
+lawyer(X) :- occupation(X, trial_lawyer).
+lawyer(X) :- occupation(X, civil_lawyer).
+
+% Queries
+
+% query2a: find all lawyers.
+query2a(X) :- lawyer(X).
+
+% query2b: find all surgeons who live in California.
+query2b(X) :- surgeon(X), address(X, los_angeles).
+
+% query2c: find all the surgeons who live in Texas and make over $100,000/yr.
+query2c(X) :- surgeon(X), address(X, dallas), salary(X, Salary), Salary > 100000.
+query2c(X) :- surgeon(X), address(X, houston), salary(X, Salary), Salary > 100000.
+query2c(X) :- surgeon(X), address(X, college_station), salary(X, Salary), Salary > 100000.
+% Facts
+occupation(joe,oral_surgeon).
+occupation(sam,patent_lawyer).
+occupation(bill,trial_lawyer).
+occupation(cindy,investment_banker).
+occupation(joan,civil_lawyer).
+occupation(len,plastic_surgeon).
+occupation(lance,heart_surgeon).
+occupation(frank,brain_surgeon).
+occupation(charlie,plastic_surgeon).
+occupation(lisa,oral_surgeon).
+address(joe,houston).
+address(sam,pittsburgh).
+address(bill,dallas).
+address(cindy,omaha).
+address(joan,chicago).
+address(len,college_station).
+address(lance,los_angeles).
+address(frank,dallas).
+address(charlie,houston).
+address(lisa,san_antonio).
+salary(joe,50000).
+salary(sam,150000).
+salary(bill,200000).
+salary(cindy,140000).
+salary(joan,80000).
+salary(len,70000).
+salary(lance,650000).
+salary(frank,85000).
+salary(charlie,120000).
+salary(lisa,190000).

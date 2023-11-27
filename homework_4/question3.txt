@@ -1,0 +1,33 @@
+% Facts
+subject(algebra, math).
+subject(calculus, math).
+subject(dynamics, physics).
+subject(electromagnetism, physics).
+subject(nuclear, physics).
+subject(organic, chemistry).
+subject(inorganic, chemistry).
+
+degree(bill, phd, chemistry).
+degree(john, bs, math).
+degree(chuck, ms, physics).
+degree(susan, phd, math).
+
+retired(bill).
+
+% Predicate to check if a person can teach a class in a given subject
+canTeach(X, Y) :- degree(X, phd, Z), subject(Y, Z), \+ retired(X).
+
+% Predicate to exclude retired people
+canTeach2(X, Y) :- canTeach(X, Y), \+ retired(X).
+
+% Predicate to allow persons with a PhD or an MS degree who are not retired to teach a class
+canTeach3(X, Y) :- (degree(X, phd, Z) ; (degree(X, ms, Z), \+ retired(X))), subject(Y, Z).
+
+% Show all solutions for canTeach(X, Y)
+% ?- canTeach(X, Y).
+
+% Show all solutions for canTeach2(X, Y)
+% ?- canTeach2(X, Y).
+
+% Show all solutions for canTeach3(X, Y)
+% ?- canTeach3(X, Y).

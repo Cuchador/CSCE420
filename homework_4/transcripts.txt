@@ -1,0 +1,73 @@
+##### Question 1 #####
+
+| ?- consult('question1.txt')
+.
+compiling /home/ugrads/w/willm02/question1.txt for byte code...
+/home/ugrads/w/willm02/question1.txt compiled, 52 lines read - 5411 bytes written, 19 ms
+
+(1 ms) yes
+| ?- brother(rod, X).
+
+X = tod ? ;
+
+| ?- sister(marge, X).
+
+X = patty ? ;
+
+X = selma ;
+
+| ?- aunt(X,patty).
+
+X = bart ? ;
+
+X = lisa ? ;
+
+X = maggie ? ;
+
+| ?- uncle(bart, X).
+
+X = herb ? ;
+
+| ?- grandfather(maggie,X).   
+
+X = abraham ? ;
+
+| ?- granddaughter(jackie, D).
+
+D = maggie ? ;
+
+D = lisa ? ;
+
+| ?- ancestor(bart,X).
+
+X = homer ? ;
+
+X = marge ? ;
+
+X = abraham ? ;
+
+X = jackie ? ;
+
+#####################################################################################################
+
+##### QUESTION 2 #####
+
+| ?- query2a(X).
+
+X = sam ? ;
+
+X = bill ? ;
+
+X = joan ? ;
+
+| ?- query2b(X).
+
+X = lance ? ;
+
+| ?- query2c(X).
+
+X = charlie ? ;
+
+######################################################################################################
+
+##### Question 3 #####
