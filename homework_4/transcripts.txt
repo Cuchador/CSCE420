@@ -71,3 +71,164 @@ X = charlie ? ;
 ######################################################################################################
 
 ##### Question 3 #####
+
+| ?- canTeach(X, Y).
+
+X = susan
+Y = algebra ? ;
+
+X = susan
+Y = calculus ? ;
+
+| ?- canTeach2(X, Y).
+
+X = susan
+Y = algebra ? ;
+
+X = susan
+Y = calculus ? ;
+
+| ?- canTeach3(X, Y).
+
+X = susan
+Y = algebra ? ;
+
+X = susan
+Y = calculus ? ;
+
+X = chuck
+Y = dynamics ? ;
+
+X = chuck
+Y = electromagnetism ? ;
+
+X = chuck
+Y = nuclear ? ;
+
+####################################################################################################
+
+##### Question 4 #####
+| ?- octal_code(A,B,C).
+000
+
+A = 0
+B = 0
+C = 0 ? ;
+001
+
+A = 0
+B = 0
+C = 1 ? ;
+010
+
+A = 0
+B = 1
+C = 0 ? ;
+011
+
+A = 0
+B = 1
+C = 1 ? ;
+100
+
+A = 1
+B = 0
+C = 0 ? ;
+101
+
+A = 1
+B = 0
+C = 1 ? ;
+110
+
+A = 1
+B = 1
+C = 0 ? ;
+111
+
+A = 1
+B = 1
+C = 1
+
+The first solution was be 000, the second solution was be 001, and so on,
+until all combinations were exhausted. Backtracking occurs when you type ;, so as a result of ending
+each code with ;, we eventually backtrack through every single possible option, and can never
+repeat a code we have already seen.
+
+#######################################################################################################
+
+##### Question 5 #####
+
+| ?- mapcolor(WA, NT, SA, Q, NSW, V, T).
+
+NSW = green
+NT = green
+Q = red
+SA = blue
+T = green
+V = blue
+WA = red ? ;
+
+NSW = blue
+NT = blue
+Q = red
+SA = green
+T = blue
+V = green
+WA = red ? ;
+
+NSW = red
+NT = red
+Q = green
+SA = blue
+T = red
+V = blue
+WA = green ? ;
+
+NSW = blue
+NT = blue
+Q = green
+SA = red
+T = blue
+V = red
+WA = green ? ;
+
+NSW = red
+NT = red
+Q = blue
+SA = green
+T = red
+V = green
+WA = blue ? ;
+
+NSW = green
+NT = green
+Q = blue
+SA = red
+T = green
+V = red
+WA = blue ? ;
+
+| ?- WA = green, mapcolor(WA, NT, SA, Q, NSW, V, T).
+
+NSW = red
+NT = red
+Q = green
+SA = blue
+T = red
+V = blue
+WA = green ? ;
+
+NSW = blue
+NT = blue
+Q = green
+SA = red
+T = blue
+V = red
+WA = green ? ;
+
+| ?- WA=red, Q=green, mapcolor(WA,NT,SA,Q,NSW,V,T).
+
+no
+
+######################################################################################################
